@@ -1,0 +1,94 @@
+* {
+	margin:0;
+	padding:0
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration:none;
+	color:#fff;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	background: #666;
+	color: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p.ptext{
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#fff !important;	
+}
+#wrapper {
+	width:1020px;
+	height:auto;
+	margin:0 auto;
+}
+#tpanel {
+	width:960px;
+	height:654px;
+	background:#fff;
+	margin:0 auto;
+}
+#container {
+	width:960px;
+	height:auto;
+	background:#772007;
+	margin:0 auto;
+}
+#footer {
+	clear:both;
+	height:41px;
+	width:960px;
+	background:#000;
+	margin:0 auto 20px auto;
+	
+}
+#tpleft {
+	background:#fff url(img/tleft.jpg) no-repeat 0 0;
+	width:435px;
+	height:654px;
+	float:left;
+}
+#tpright {
+	background:#fff url(img/tright.jpg) no-repeat 0 0;
+	width:525px;
+	height:654px;
+	float:left;
+}
+.clr{
+	clear:both;	
+}

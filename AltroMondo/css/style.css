@@ -1,0 +1,42 @@
+/*Jech - TechForge I.T. Solutions Inc. XHTML/CSS DEVELOPER*/
+html {overflow: -moz-scrollbars-vertical}
+* {margin:0;padding:0}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0}
+:focus{outline:0}
+body{line-height:1;color:#000;background:url(../img/samplebg.jpg) repeat top center;font:normal 12px/1.25 Arial, Helvetica, sans-serif;text-align:center}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:400}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+/*global*/
+body.hm{margin:125px 0 67px 0}
+#wrap{position:relative;overflow:hidden;width:1037px;margin:0 auto;height:708px;text-align:left;background:url(../img/bg.png) repeat}
+#content{background: url(../img/contentbg.png) repeat scroll 0 0 transparent;height: 583px;padding: 15px;width: 769px}
+#footer{position:relative;clear:both;padding-top:5px;overflow:hidden;height:39px}
+.clear{clear:both}
+#social,#fkborder,#social ul li,#left,#content,#mainleft,.mainright,.exbtthumb ul li,.wnmblock img,ul#artlist li,#gmap,#cform,#artpleft,#artpright,#exdetailed,#detailright,#detailright ul li,#page2,#page2_2{float:left}.sm,#footer p,.page{float:right}
+#social ul li a,#logo h2 a,#mainnav ul li a{display:block;height:100%}
+#header{overflow:hidden;height:50px}
+#logo,#mainnav{text-indent:-10000px}
+/*texts*/
+div.main{font:normal 12px/19px Verdana, Geneva, sans-serif;color:#ccc}
+p,span{padding-bottom:8px}
+h2{font-size:18px}
+#mainleft h2{font:normal 19px Verdana, Geneva, sans-serif;color:#999}
+span{display:block;font-size:11px}
+small{font-size:10px}
+a,a:link,a:visited,a:hover{text-decoration:none;color:#333}
+strong{font-weight:bold}
+/*headers*/
+h1{font-size:20px}h2{font-size:19px}h3{font-size:18px}h4{font-size:17px}h5{font-size:16px}h6{font-size:15px}
+/*forms*/
+/*input,textarea{border:1px solid #666666}input:focus,textarea:focus{background:#FCF4CF;border:1px solid #666}textarea{vertical-align:sub;overflow:hidden}
+*/label{padding:2px 4px 2px 2px;vertical-align:baseline}
+input[type="checkbox"], input[type="radio"]{background: transparent;border: 0}
+/*misc*/
+.sep{border-bottom:1px solid #252424}
+/* removing dotted line on buttons and clickable input elements for Firefox */
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, button::-moz-focus-inner {border:0}
+/* Remove outline on buttons and clickable input elements for WebKit Browsers & IE8 */
+/*input[type="submit"]:focus, input[type="button"]:focus, input[type="text"]:focus, button{outline:none}
+input[type="submit"]:hover{cursor:pointer}*/

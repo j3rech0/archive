@@ -1,0 +1,10 @@
+#subs{vertical-align:text-bottom;}
+#cform input,#cform textarea{
+   background:transparent;
+   filter:progid:DXImageTransform.Microsoft.Gradient(
+                                                GradientType=0, 
+                                                startColorstr=#7F000000, /* first two digits are a hex value [0-255] for transparency (7F = 50% Opacity. FF = 100% Opacity. 00 = 0% Opacity. ) */
+                                                endColorstr=#7F000000
+                                            );
+   zoom: 1;
+} 

@@ -1,0 +1,1 @@
+![Altro Mondo](./screenshot.png)

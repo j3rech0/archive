@@ -1,0 +1,450 @@
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+}[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0pt auto;
+    font-size: 14px;
+    line-height: 1.231;
+    background: url("../img/checkered.png") repeat scroll 0% 0% transparent;
+}
+
+body, button, input, select, textarea {
+    font-family: Helvetica;
+    color: #222222;
+}
+
+*::-moz-selection {
+    background: none repeat scroll 0% 0% #006651;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+a {
+    color: #0000EE;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:hover {
+    color: #0066EE;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active {
+    outline: 0pt none;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-width: 1px 0pt 0pt;
+    border-style: solid none none;
+    border-color: #CCCCCC -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-image: none;
+    margin: 1em 0pt;
+    padding: 0pt;
+}
+
+ins {
+    background: none repeat scroll 0% 0% #FFFF99;
+    color: #000000;
+    text-decoration: none;
+}
+
+mark {
+    background: none repeat scroll 0% 0% #FFFF00;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+q:before, q:after {
+    content: none;
+}
+
+small {
+    font-size: 85%;
+}
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+.feat-txt ul {
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+ul, ol {
+    margin: 1em 0pt;
+    padding: 0pt 0pt 0pt 40px;
+}
+
+dd {
+    margin: 0pt 0pt 0pt 40px;
+}
+
+nav ul {
+    list-style: disc outside none;
+    margin: 1em 0pt;
+    padding: 0pt 0pt 0pt 40px;
+}
+
+nav ol {
+    list-style: decimal outside none;
+    margin: 1em 0pt;
+    padding: 0pt 0pt 0pt 40px;
+}
+
+img {
+    border: 0pt none;
+    vertical-align: middle;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+figure {
+    margin: 0pt;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+form {
+    margin: 0pt;
+}
+
+fieldset {
+    border: 0pt none;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label {
+    cursor: pointer;
+}
+
+legend {
+    border: 0pt none;
+    padding: 0pt;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0pt;
+    vertical-align: baseline;
+}
+
+button, input {
+    line-height: normal;
+}
+
+table button, table input {
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+}
+
+input[type="search"] {
+    -moz-box-sizing: content-box;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0pt none;
+    padding: 0pt;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+/* Colors for form validity */
+input:valid, textarea:valid {
+}
+
+input:invalid, textarea:invalid {
+    background-color: #F0DDDD;
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+table {
+    border-collapse: collapse;
+    border-spacing: 0pt;
+}
+
+td {
+    vertical-align: top;
+}
+
+/* ==|== primary styles =====================================================
+   Author: Jech
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0pt 0pt 10px;
+}
+
+.feat-txt div p {
+    margin: 0pt;
+}
+
+p {
+    margin: 0pt 0pt 10px;
+    line-height: 18px;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+a:focus {
+    outline: medium none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.fR {
+    float: right;
+}
+
+.fL {
+    float: left;
+}
+
+.nB {
+    list-style: none outside none;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+.cL {
+    clear: both;
+}
+
+
+
+.fullwidth {
+    width: 100%;
+}
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir {
+    display: block;
+    border: 0pt none;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+}
+
+.ir br {
+    display: none;
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden {
+    display: none ! important;
+    visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden {
+    border: 0pt none;
+    clip: rect(0pt, 0pt, 0pt, 0pt);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0pt;
+    position: absolute;
+    width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0pt;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible {
+    visibility: hidden;
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media print {
+    * {
+        background: none repeat scroll 0% 0% transparent ! important;
+        color: black ! important;
+        text-shadow: none ! important;
+        filter: none ! important;
+    }
+
+    a, a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
+
+    pre, blockquote {
+        border: 1px solid #999999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr, img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% ! important;
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2, h3 {
+        page-break-after: avoid;
+    }
+}

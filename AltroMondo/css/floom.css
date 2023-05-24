@@ -1,0 +1,52 @@
+#blinds-cont {
+	width: 768px;
+	height: 493px;
+	
+	font-family: "Georgia", "Arial Narrow", "Arial", sans-serif;
+}
+
+#blinds {
+	height: 493px;
+	width: 768px;
+	margin: 0 auto;
+	background: url(spinner.gif) 50% no-repeat;
+}
+
+.floom_container {
+	overflow: hidden;
+	
+}
+
+.floom_progressbar {
+	height: 3px;
+	background: #fe0059;
+	width: 0;
+	position: relative;
+	top: 2px;
+	z-index: 1000;
+	font-size: 1px;
+}
+
+.floom_slice {
+	z-index: 10;
+}
+
+	
+.floom_vertical {
+	float: left;
+}
+
+.floom_horizontal {
+	
+}
+
+.floom_caption {
+	width: 100%;
+	position: relative;
+	top: 25px;
+	text-align: center;
+	font-size: 1.0em;
+	color: #333;
+	text-shadow: 0 1px 0 #fff;
+	font-style: italic;
+}

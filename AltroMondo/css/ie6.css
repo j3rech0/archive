@@ -1,0 +1,16 @@
+#wrap{
+background:transparent; zoom:1;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)"; 
+}
+#content{
+background:transparent; zoom:1;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#50000000); 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#50000000)";
+}
+#cform input,#cform textarea{background:transparent; zoom:1;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000); 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000)";}
+.wnmblock{ border-bottom: 1px solid #212121;
+    margin-bottom: 22px;
+    padding-bottom: 22px;}
