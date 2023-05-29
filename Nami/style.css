@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0
+}
+html {
+	overflow: -moz-scrollbars-vertical; /* always display the vertical scrollbar in firefox */
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration:none;
+	color:#766f67;
+}
+input {
+	border:1px solid #CCC;
+}
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+	color:#766f67;
+	outline: none;
+	cursor: pointer;
+}
+a:hover {
+	color:#666;
+	cursor: pointer;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	background: #756F68;
+	color: #000;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#wrapper {
+	margin:0 auto;
+	width:900px;
+	height:auto;
+	background:#fff;
+}
+#header {
+	background:url(img/headbg.jpg) repeat-x;
+	height:85px;
+	position:relative;
+}
+#content {
+	background:#fff;
+	margin:30px;
+	overflow:hidden;
+}
+#footer {
+	background:url(img/footbg.jpg) repeat-x;
+	width:auto;
+	height:57px;
+	position:relative;
+	clear:both;
+}
+#footer ul li { /* #footer ul > li  -- this will not work on ie6 */
+	background:#000;
+	color:#fff !important;
+}
+.clr {
+	clear:both
+}

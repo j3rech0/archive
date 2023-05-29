@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document here comes inner and all childnode selector */
+#header h2 {
+	color:#fff;
+	font-size:24px;
+	padding:30px 0 0 10px;
+}
+#header p {
+	padding-left:10px;
+	color:#fff;
+	font-size:11px;
+}
+#logo {
+	background:url("img/logo.png") no-repeat scroll 0 0 transparent;
+	behavior:url("iepngfix.htc");
+	height:67px;
+	position:absolute;
+	right:11px;
+	text-indent:-10000px;
+	top:12px;
+	width:70px;
+}
+
+#footer h2 {
+	background:url("img/360tiny.jpg") no-repeat scroll 0 0 transparent;
+	height:44px;
+	position:absolute;
+	right:30px;
+	text-indent:-10000px;
+	top:7px;
+	width:33px;
+}
+.box {
+	float:left;
+	width:233px;
+	height:204px;
+	text-align:center;
+	padding:0 20px 0 20px;
+}
+.box img {
+	border:4px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin:5px 0 5px 0;
+}
+.box h2 {
+	font-size:15px;
+}
+#footer a, #logo a {
+	display:block;
+	height:100%
+}

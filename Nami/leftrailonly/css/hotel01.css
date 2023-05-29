@@ -1,0 +1,14 @@
+/*********
+add this css
+**********/
+
+
+.side_addtext {
+	padding:20px 10px 100px;
+	text-align:center;
+}
+.side_addtext h2 {
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+}
