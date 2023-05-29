@@ -1,0 +1,112 @@
+/*akjsdfhkjadhf hahah testing testing css reset fahdkjfh*/
+* {
+	margin:0;
+	padding:0
+}
+html {
+     overflow: -moz-scrollbars-vertical; /* always display the vertical scrollbar in firefox */
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration:none;
+	color:#333;
+}
+body {
+	margin: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	background: #fff url(img/hbg.jpg) repeat-x scroll center top;
+	color: #333;
+	width:auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#wrapper {
+	margin:0 auto;
+	width:1000px;
+	height:auto;
+	background:#fff;
+}
+#header {
+	height:108px;
+	width:auto;
+	background: #fff url(img/hbg.jpg) repeat-x;
+}
+#container {
+	overflow:hidden;
+	margin:20px 0 20px 0;
+	/*_position:relative; if enabled, IE6 box  with position relative will be invisible eg. services.html*/
+}
+.clr {
+	clear:both;
+}
+#leftpan {
+	float:left;
+	overflow:visible;
+	width:300px;
+}
+#rightpan {
+	float:right;
+	width:700px;
+}
+#footer {
+	width:auto !important;
+	background:#333 url(img/fbg.jpg) repeat-x;
+	height:108px;
+	clear:both;
+}
+#footer ul {
+	margin:0 auto;
+	width:1000px;
+}
+#footer ul li {
+	float:left;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:100;
+	padding:37px 30px 0 0;
+}
+#footer a {
+	color:#fff;
+}
+#footer p {
+	margin:0 auto;
+	width:1000px;
+	font-size:10px;
+	text-transform:uppercase;
+	color:#666;
+	padding-top:10px;
+}
