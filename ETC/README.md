@@ -1,1 +1,1 @@
-![EnglishPLS](./screenshot.png)
+![ETC](./screenshot.png)
