@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document here comes inner and all childnode selector */
+.selector_test {
+	color:#000;
+}
+#logo {
+	background:url(img/logo.png) no-repeat scroll 0 9px transparent;
+	behavior:url(img/iepngfix.htc);
+	height:91px;
+	margin-bottom:6px;
+	text-indent:-10000px;
+	width:250px;
+}
+ul#nav {
+	background:url(img/navbg.jpg) repeat-x;
+	width:auto;
+	height:44px;
+}
+span#slogan {
+	position:absolute;
+	right:1px;
+	bottom:45px;
+	background:url(img/righttext.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:201px;
+	height:28px;
+	text-indent:-10000px;
+}
+ul#nav li {
+	float:left;
+	text-indent:-10000px;
+	padding-right:55px;
+}
+ul#nav li#Home {
+	background:url(img/nav.jpg) no-repeat 0 -246px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#About {
+	background:url(img/nav.jpg) no-repeat 0 -205px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#Rooms {
+	background:url(img/nav.jpg) no-repeat 0 -164px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#Food {
+	background:url(img/nav.jpg) no-repeat 0 -123px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#Services {
+	background:url(img/nav.jpg) no-repeat 0 -82px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#Events {
+	background:url(img/nav.jpg) no-repeat 0 -41px;
+	width:89px;
+	height:41px;
+}
+ul#nav li#Contact {
+	background:url(img/nav.jpg) no-repeat 0 0;
+	width:72px;
+	height:41px;
+	padding:0 !important
+}
+#topPanel {
+	width:960px;
+	height:auto;
+}
+#leftPanel {
+	background:url(img/sliderSample.jpg) repeat;
+	width:120px;
+	height:450px;
+	float:left;
+}
+#rightPanel {
+	width:840px;
+	height:450px;
+	background:url(img/flashSample.jpg) no-repeat;
+	float:left;
+}
+#bottomPanel {
+	height:auto;
+	width:959px;
+	background:#66ccff;
+	opacity:0.6;
+	clear:both;
+}
+#bottomPanel h2 {
+	background:url(img/360.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:249px;
+	height:40px;
+	text-indent:-10000px;
+	float:left;
+	margin:10px 22px 10px 10px;
+}
+#bottomPanel p {
+	padding:10px;
+}
+#mainContent {
+	height:auto;
+}
+.boxes {
+	background:#333;
+	width:220px;
+	height:145px;
+	opacity:0.6;
+	float:left;
+	margin:20px 13px 20px 0;
+	padding-left:10px;
+}
+.last_box {
+	background:#333;
+	width:220px;
+	height:145px;
+	opacity:0.6;
+	float:left;
+	margin:20px 0 20px 0;
+	padding-left:10px;
+}
+.boxes h2, .last_box h2 {
+	text-indent:-10000px;
+}
+#rm {
+	background:url(img/rooms.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:81px;
+	height:16px;
+	margin:11px 0 0 0;
+}
+#am {
+	background:url(img/amenities.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:107px;
+	height:16px;
+	margin:11px 0 0 0;
+}
+#fo {
+	background:url(img/food.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:81px;
+	height:16px;
+	margin:11px 0 0 0;
+}
+#ev {
+	background:url(img/events.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:81px;
+	height:16px;
+	margin:11px 0 00;
+}
+.boxes a, .last_box a {
+	margin-top:10px;
+	display:block;
+	padding-bottom:5px;
+}
+#details {
+	background:#333;
+	width:940px;
+	height:auto;
+	opacity:0.6;
+	padding:10px;
+	clear:both;
+	margin-bottom:7px;
+}
+#details h2 {
+	background:url(img/islandupdate.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:161px;
+	height:16px;
+}
+#footer a {
+	font-size:14px !important;
+	color:#fff !important;
+}
+#socialsite {
+	float:right !important;
+}
+img.imgcenter {
+	vertical-align:middle;
+}
+#inner_left {
+	width:240px;
+	height:auto;
+	padding:10px;
+	background:#333;
+	opacity:0.6;
+	float:left;
+	margin-right:2px;
+}
+#inner_right {
+	width:678px;
+	height:auto;
+	padding:10px;
+	background:#333;
+	opacity:0.6;
+	float:left;
+	margin-bottom:10px;
+}
+#inner_right p {
+	padding:10px 0 10px 0;
+}
+#inner_right h2 {
+	background:url(img/aboutseawind.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:175px;
+	text-indent:-10000px;
+	height:16px;
+}
+#inner_left h2 {
+	background:url(img/aboutseawind.png) no-repeat;
+	behavior:url(img/iepngfix.htc);
+	width:175px;
+	text-indent:-10000px;
+	height:16px;
+}
+#inner_left ul {
+	padding-top:10px;
+}
+#leftPanel_inner {
+	width:238px;
+	margin-right:1px;
+	height:auto;
+	float:left;
+}
+#leftPanel_inner div {
+	width:229px;
+	margin:1px;
+	background:#333;
+	height:49px;
+	padding:4px;
+}
+#leftPanel_inner h2 {
+	background:url(img/rooms.jpg) no-repeat;
+	width:121px;
+	height:36px;
+	text-indent:-10000px;
+}
+#rightPanel_inner {
+	width:719px;
+	background:url(img/roomssample.jpg) no-repeat;
+	height:348px;
+	float:left;
+}
+#room_info {
+	background:url(img/roominfo.png) no-repeat !important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:201px!important;
+	height:16px!important;
+}
+#room_info2 {
+	background:url(img/roominfo2.png) no-repeat !important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:337px!important;
+	height:16px!important;
+}
+#foods {
+	background:url(img/foods.png) no-repeat !important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:64px!important;
+	height:16px!important;
+}
+/*
+#info_header{
+	font-family:century gothic;
+	font-size:22px;
+	text-transform:uppercase;	
+}*/
+#contact {
+	background:url(img/contact.png)!important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:136px!important;
+	height:16px!important;
+}
+#contact2 {
+	background:url(img/googlemaps.png)!important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:271px!important;
+	height:16px!important;
+}
+#gmap{
+	padding:33px 0 28px 79px;
+}
+#events {
+	background:url(img/events.png)!important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:74px!important;
+	height:16px!important;
+}
+#events2 {
+	background:url(img/wedding.png)!important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:105px!important;
+	height:16px!important;
+}
+#services {
+	background:url(img/services.png)!important;
+	behavior:url(img/iepngfix.htc)!important;
+	text-indent:-10000px!important;
+	width:96px!important;
+	height:16px!important;
+}
+#event_img{
+	padding:33px 0 28px 47px;
+}
+#event_img img {
+	padding:4px;
+}
