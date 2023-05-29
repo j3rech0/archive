@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/inner.css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="css/ie.css" />
+<script type="text/javascript" src="js/ie.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/watermark.js"></script>
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.name').Watermark("Name","#d2c6a9");
+        $('.email').Watermark("E-mail Address","#d2c6a9");
+        $('.search').Watermark("Search...","#d2c6a9");
+        //jscroll
+	$('.scroll-pane').jScrollPane({showArrows: true});
+});
+</script>
+<style type="text/css">
+.scroll-pane
+{
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+.horizontal-only
+{
+	height: auto;
+	max-height: 200px;
+}
+</style>
+</head>
+<body>
+<div id="fakeheaderblue"></div>
+<div id="wrapper">
+  <div id="content">
+    <div id="header">
+      <h2 id="logo"><a href="index.html" title="Creative Frappe">Creative Frappe</a></h2>
+      <ul id="nav">
+        <li class="home"><a href="index.html" title="Home">home</a></li>
+        <li class="about"><a href="about.html" title="About">about</a></li>
+        <li class="services"><a href="services.html" title="Services">services</a></li>
+        <li class="folio"><a href="folio.html" title="Folio">folio</a></li>
+        <li class="contact"><a href="contact.html" title="Contact">contact</a></li>
+      </ul>
+      <div class="searchandfeeds">
+        <form action="" method"">
+          <input type="text" value="" class="search">
+            <input type="button" class="searchb">
+        </form>
+        <a href="#" class="feeds">feeds</a>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="slogan"><span id="w">we're</span> <span id="t">the</span> <span id="b">best</span> <span id="p">people</span> <span id="y">you</span> <span id="c">could</span> <span id="p1">possibly</span> <span id="h">hire</span></div>
+      <div id="slider"></div>
+    </div>
+    <div id="three-box">
+      <a href="#">
+      <div class="box">
+        <h2>who we are</h2>
+        <p>A group of young minds that deliver
+the best services.</p>
+      </div>
+      </a>
+      <a href="#">
+      <div class="box">
+        <h2>creations</h2>
+        <p>Take a sneak peak.</p>
+      </div>
+      </a>
+      <a href="#">
+      <div class="box">
+        <h2>we can do</h2>
+        <p>Brought together to create a unique
+& different approach.</p>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="cloud">
+  <div id="cloud"></div>
+  </div>
+  <div id="foot">
+    <a href="#" title="rss" id="frss">rss</a>
+  <h1 id="logofoot"><a href="#" title="creative frapee">creative frapee</a></h1>
+  <div id="cform">
+    <h3>drink with us!</h3>
+    <p>Spend your coffee break by reading our newsletter</p>
+    <form action="" method="" name="">
+      <input type="text" value="" class="name">
+        <input type="text" value="" class="email">
+          <input type="button" class="csubmit">
+    </form>
+  </div>
+  <div id="testi" class="scroll-pane horizontal-only">
+    
+	<div style="width:1200px">
+    
+    <h3>from our clients:</h3>
+    <p>"Creative Frappe is bla bla churva
+and rot rot carrot row ba row. Choo
+choo churva loo."
+    <span>- John Doe, RotRot Marketing</span>
+    </p>
+    <p>"Creative Frappe is bla bla churva
+and rot rot carrot row ba row. Choo
+choo churva loo."
+    <span>- John Doe, RotRot Marketing</span>
+    </p>
+    <p>"Creative Frappe is bla bla churva
+and rot rot carrot row ba row. Choo
+choo churva loo."
+    <span>- John Doe, RotRot Marketing</span>
+    </p>
+    <p>"Creative Frappe is bla bla churva
+and rot rot carrot row ba row. Choo
+choo churva loo."
+    <span>- John Doe, RotRot Marketing</span>
+    </p>
+  </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

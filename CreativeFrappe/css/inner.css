@@ -1,0 +1,687 @@
+@font-face {
+  font-family: "bebas";
+  src: url("bebas.eot");
+  src: local("☺"),
+    url("bebas.woff") format("woff"),
+    url("bebas.otf") format("opentype"),
+    url("bebas.svg#filename") format("svg");
+  }
+  @font-face {
+  font-family: "chunkfive";
+  src: url("chunkfive.eot");
+  src: local("☺"),
+    url("chunkfive.woff") format("woff"),
+    url("chunkfive.otf") format("opentype"),
+    url("chunkfive.svg#filename") format("svg");
+  }
+   @font-face {
+  font-family: "manksans";
+  src: url("manksans.eot");
+  src: local("☺"),
+    url("manksans.woff") format("woff"),
+    url("manksans.otf") format("opentype"),
+    url("manksans.svg#filename") format("svg");
+  }
+  a.back2top{
+    background:url("../img/top.png") no-repeat scroll 4px 2px transparent;
+    padding-left:20px;
+    width:12px;
+    height:10px;
+    text-transform:uppercase;
+    font-size:14px;
+    color:#000;
+    font-weight:bold
+  }
+#wrapper{
+    text-align:left;
+    margin:-111px auto 0;
+    width:1200px;
+    overflow:hidden
+}
+#content{
+    width:1200px;
+    position:relative
+}
+#header{
+    background: url("../img/headerbg.jpg") no-repeat scroll left top transparent;
+    height: 172px;
+    padding-top: 5px;
+    position: relative;
+}
+#fakeheaderblue{
+    background: none repeat scroll 0 0 #79A9B2;
+    height: 111px;
+}
+#logo a, ul#nav li a,#logofoot a, #tag a{
+    display:block;
+    height:100%;
+    
+}
+#logo{
+    background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+    height: 233px;
+    left: 26px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 10px;
+    width: 417px
+    
+}
+#nav {
+  
+  width: 688px;
+  height: 147px;
+  /*position: absolute;
+  bottom: -1px;
+  right: 13px;*/
+  float:right;
+  position:relative
+}
+#nav li{
+    text-indent:-10000px;
+    float:left
+}
+.home{
+    background: url("../img/home.png") no-repeat scroll 0 87px transparent;
+    bottom: 40px;
+    height: 147px;
+    position: absolute;
+    width: 177px;
+}
+.home a:hover{
+    background:url("../img/home.png") no-repeat 0 -26px
+}
+.about{
+    background: url("../img/about.png") no-repeat scroll 0 87px transparent;
+    bottom: 40px;
+    height: 147px;
+    left: 124px;
+    position: absolute;
+    width: 177px;
+}
+.about a:hover{
+    background:url("../img/about.png") no-repeat 0 -26px
+}
+.services{
+    background: url("../img/services.png") no-repeat scroll 0 87px transparent;
+    bottom: 40px;
+    height: 147px;
+    left: 249px;
+    position: absolute;
+    width: 177px;
+}
+.services a:hover{
+    background:url("../img/services.png") no-repeat 0 -26px
+}
+.folio{
+    background: url("../img/folio.png") no-repeat scroll 0 87px transparent;
+    bottom: 40px;
+    height: 147px;
+    left: 372px;
+    position: absolute;
+    width: 177px;
+}
+.folio a:hover{
+    background:url("../img/folio.png") no-repeat 0 -26px
+}
+.contact{
+    background: url("../img/contact.png") no-repeat scroll 0 87px transparent;
+    bottom: 40px;
+    height: 147px;
+    left: 495px;
+    position: absolute;
+    width: 177px;
+}
+.contact a:hover{
+    background:url("../img/contact.png") no-repeat 0 -26px
+}
+#portfolio{
+    width:1060px;
+    height:339px;
+    background:#d2c6a9;
+    -moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+    margin:130px 0 0 76px
+}
+.slogan{
+    float: left;
+    font-family: "bebas",Helvetica,Arial;
+    line-height: 36px;
+    padding: 30px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 237px;
+}
+.slogan #w{
+    color: #937C67;
+    font-size: 4em;
+    vertical-align: top;
+    
+}
+.slogan #t{
+    color: #ED3486;
+    font-size: 6em;
+    vertical-align: text-bottom;
+    
+}
+.slogan #b{
+    color: #82B5BF;
+    font-size: 6em;
+    vertical-align: inherit;
+    
+}
+.slogan #p{
+    color: #E98511;
+    font-size: 4em;
+    vertical-align: top;
+}
+.slogan #y{
+    color: #937C67;
+    font-size: 6.5em;
+    vertical-align: middle;
+    
+}
+.slogan #c{
+    color: #53A9AB;
+    font-size: 6em;
+    vertical-align: bottom;
+}
+.slogan #p1{
+    color: #3A3C39;
+    display: block;
+    font-size: 6em;
+    padding-top: 22px;
+}
+.slogan #h{
+    color: #FF3C3C;
+    display: block;
+    font-size: 7em;
+    padding-top: 25px;
+}
+#slider{
+    background: url("../img/sliderbg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 326px;
+    margin: 8px 0 0 80px;
+    width: 589px;
+}
+#three-box{
+    height: 200px;
+    margin: 86px 0 20px 117px;
+    overflow: hidden;
+}
+#three-box a:hover > .box h2{
+    background-position:0 -82px
+}
+.box{
+     float: left;
+    margin-right: 127px;
+    width: 231px;
+}
+.box p {
+    font:normal 14px georgia;
+    color:#000;
+    padding:5px
+}
+.box h2 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background: url("../img/boxbg.png") no-repeat scroll
+    0% 0% transparent;
+  width: 231px;
+  text-align: center;
+  font: 29px "chunkfive" ,Helvetica,Arial;
+  padding: 29px 0pt 0pt;
+  height: 53px;
+}
+#cform{
+    float: left;
+    margin:20px 0 0 21px;
+    text-align: left;
+    background:url("../img/cformbg.png") no-repeat right center;
+    width:315px
+}
+#testi{
+    float: left;
+    height:auto;
+    padding: 20px 0 0 29px;
+    text-align: left;
+    width: 811px;
+    position:relative;
+    margin-left:20px
+}
+#frss{
+  background: url("../img/rss.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 22px;
+    position: absolute;
+    right: 42px;
+    text-indent: -10000px;
+    top: -37px;
+    width: 52px;
+    z-index: 3;
+}
+#testi p{
+  float: left;
+    padding-top: 10px;
+    width: 220px;
+    margin-right:50px
+}
+#testi p:last-child{
+  margin-right:0
+}
+#testi span{
+  color: #31DDFF;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#cform form{
+  width: 278px;
+}
+#cform h3 ,#testi h3{
+  font-family:"bebas",Helvetica,Arial;
+  color: #31DDFF;
+  font-family: "bebas",Helvetica,Arial;
+    font-size: 26px;
+    text-shadow: 1px 1px 2px #000000;
+    padding-bottom:10px;
+}
+#cform p{
+  padding-bottom:10px
+}
+#cform input{
+  -moz-border-radius: 20px;-webkit-border-radius:20px;border-radius:20px;
+    border: 1px solid #FFFFFF;
+    display: block;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    width: 259px;
+    font-style:italic
+}
+#cform .csubmit{
+  background: url("../img/submit.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    width: 82px;
+    float:right
+}
+#cform .csubmit:hover{
+  background-position:0 -24px
+}
+.searchandfeeds{
+  bottom: 0;
+    position: absolute;
+    right: 53px;
+}
+.s{
+  right:265px
+}
+.search{
+  background: url("../img/search.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 31px;
+    padding: 0 7px;
+    width: 172px;
+    font-style:italic
+}
+.searchandfeeds form{
+  padding-top:10px
+}
+.searchandfeeds form, a.feeds{
+  float:left
+}
+a.feeds{
+  margin-left:40px
+}
+a.feeds:hover{
+     -moz-transform: rotate(-2.5deg);  
+       -o-transform: rotate(-2.5deg);  
+  -webkit-transform: rotate(-2.5deg);  
+      -ms-transform: rotate(-2.5deg);  
+          transform: rotate(-2.5deg);  
+             filter: progid:DXImageTransform.Microsoft.Matrix( 
+                     M11=0.9990482215818578, M12=0.043619387365336, M21=-0.043619387365336, M22=0.9990482215818578, sizingMethod='auto expand');
+               zoom: 1;
+
+}
+.searchb{
+    background: url("../img/searchbg.png") no-repeat scroll 0 0 transparent;
+    width:58px;
+    height:25px;
+    border:0 none;
+    cursor:pointer
+}
+.searchb:hover{
+  -moz-box-shadow: 0 0 8px #fff;-webkit-box-shadow: 0 0 8px #fff;box-shadow: 0 0 8px #fff
+}
+input.search:focus{
+   border:0 none
+}
+.feeds{
+  width:100px;
+  height:50px;
+  background:url("../img/feeds.png") no-repeat;
+  text-indent:-10000px
+}
+#board{
+  background: url("../img/board.jpg") no-repeat scroll 0 0 transparent;
+    height: 473px;
+    margin: 143px 0 67px 131px;
+    padding: 67px;
+    width: 862px;
+    position:relative
+}
+#drizzle{
+  background: url("../img/drizzle.png") no-repeat scroll 0 0 transparent;
+    bottom: -42px;
+    height: 350px;
+    left: -89px;
+    position: absolute;
+    width: 284px;
+}
+#whatwedo{
+  width: 721px;
+  padding:35px 0 0 141px
+}
+#board h1{
+  background:url("../img/abouth.png") no-repeat center center;
+  width:438px;
+  height:137px;
+  padding-left:50%;
+  text-indent:-10000px;
+  margin-bottom:25px
+}
+#board p{
+  font: normal 13px georgia;
+  padding-bottom: 15px;
+}
+#board span{
+  color:#ff3e3e;
+  font-family:arial;
+  font-weight:bold
+}
+#board h2{
+  font-family:"bebas",Helvetica,Arial;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:32px;
+  padding-bottom:15px
+}
+#cycler{
+  height: 210px;
+    margin: 106px 0 61px 15px;
+    overflow: hidden;
+    padding: 0 143px;
+    width: 937px;
+}
+#cycler ul li{
+  float:left;
+  padding-right:30px
+}
+.carousel-wrap{
+  width: 800px;
+  float:left
+}
+input.previous{
+  background: url("../img/arrow.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    height: 38px;
+    margin: 65px 30px 0 0;
+    text-indent: -10000px;
+    width: 38px;
+    
+}
+input.next{
+    background: url("../img/arrow.png") no-repeat scroll -38px 0 transparent;
+    border: 0 none;
+    float: left;
+    height: 38px;
+    margin: 65px 0 0 30px;
+    text-indent: -10000px;
+    width: 38px;
+    
+}
+input.next:hover,input.previous:hover{
+  cursor:pointer
+}
+#cycler .disabled{
+  opacity:0.3;
+  cursor:default;
+}
+#tag{
+  background: url("../img/tag.png") no-repeat scroll 46px 0 transparent;
+    height: 461px;
+    position: absolute;
+    right: 55px;
+    top: 111px;
+    width: 256px;
+}
+#tag ul{
+   padding: 251px 0 0;
+   text-indent:-10000px
+}
+#tag ul li{
+  padding-bottom:13px
+}
+.seo{
+  background: url("../img/sidebar.png") no-repeat scroll 53px 23px transparent;
+    height: 51px;
+    width: 245px;
+}
+.web{
+   background: url("../img/sidebar.png") no-repeat scroll 53px -40px transparent;
+    height: 51px;
+    width: 245px;
+}
+.internet{
+   background: url("../img/sidebar.png") no-repeat scroll 53px -101px transparent;
+    height: 51px;
+    width: 245px;
+}
+.internet a:hover{
+  background:url("../img/clickme.png") no-repeat top left;
+  height:50px
+}
+.web a:hover{
+  background:url("../img/clickme.png") no-repeat top left;
+  height:50px
+}
+.seo a:hover{
+  background:url("../img/clickme.png") no-repeat top left;
+  height:50px
+}
+#services{
+  float: left;
+    height: auto;
+    margin: 123px 0 0 38px;
+    padding: 20px 20px 20px 100px;
+    width: 611px;
+    position:relative
+}
+#services h2{
+  color: #000000;
+    font: 53px "manksans",georgia;
+    text-shadow: 3px 0 3px #414141;
+    margin-bottom:20px
+}
+#services p{
+  color:#000;
+  margin-bottom:20px
+}
+#services h3{
+  color:#cc3090;
+  margin-bottom:20px;
+  font: 20px "Myriad Pro";
+}
+#target{
+  background: url("../img/target.png") no-repeat scroll 0 0 transparent;
+    height: 182px;
+    position: absolute;
+    right: -151px;
+    top: 40%;
+    width: 170px;
+    z-index: -1;
+}
+.frame{
+  background:url("../img/frame.png") no-repeat;
+  width:335px;
+  height:220px
+}
+#folio{
+  margin: 90px 0 50px;
+    padding: 20px 149px;
+    
+}
+#frappe{
+  background: url("../img/frappe.png") no-repeat scroll 0 0 transparent;
+    height: 282px;
+    position: absolute;
+    right: 1px;
+    top: -269px;
+    width: 217px;
+    z-index: 5;
+}
+#notfound{
+  margin: 94px;
+    text-align: center;
+    width: 1000px;
+}
+#contact{
+ margin: 89px 0 0 114px;
+    overflow: hidden;
+    width: 1042px;
+}
+#contact-form{
+  width:507px;
+  height:575px;
+  background:#efede0;
+  float:left;
+  -moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px
+}
+#contact-form form{
+   margin: 34px 0 0 34px;
+   width:435px
+}
+#contact-form h2{
+    background: url("../img/contacth.jpg") no-repeat scroll 0 0 transparent;
+    height: 39px;
+    margin: 20px 0 0 56px;
+    text-indent: -10000px;
+    width: 380px;
+}
+.blueinput,.blueinput2{
+  background: url("../img/input.jpg") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 53px;
+    padding: 0 16px;
+    width: 436px;
+    margin-bottom: 25px;
+    font: bold 21px arial;
+}
+.bluetextarea{
+  background: url("../img/textarea.jpg") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    font: bold 21px arial;
+    height: 154px;
+    padding: 16px 16px 0;
+    width: 413px;
+}
+.bluebutton{
+  background:url("../img/submit.jpg") no-repeat;
+  width:91px;
+  height:30px;
+  cursor:pointer;
+  border:0 none;
+  float:right;
+  margin-top:8px
+}
+.bluebutton:hover{
+  background-position:0 -30px
+}
+#mobile{
+  float:left;
+  position:relative
+}
+#iphone{
+  background: url("../img/iphone.png") no-repeat scroll 0 0 transparent;
+    height: 203px;
+    left: 24px;
+    position: absolute;
+    top: 62px;
+    width: 123px;
+}
+#extrainfo{
+  background:#303030;
+  width:437px;
+  height:238px;
+  -moz-border-radius: 20px;-webkit-border-radius:20px;border-radius:20px;
+  margin-left: 87px
+}
+#extrainfo h2{
+  background: url("../img/creativefrappemobile.jpg") no-repeat scroll center 10px transparent;
+    height: 49px;
+    padding: 17px 44px 0;
+    text-indent: -10000px;
+    width: 349px;
+}
+#extrainfo span{
+  display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 17px 0 0 69px;
+}
+#extrainfo p{
+  font-size: 19px;
+    line-height: 20px;
+    padding: 19px 0 0 68px;
+}
+#people{
+  background: url("../img/people.png") no-repeat scroll 0 0 transparent;
+    bottom: -13px;
+    height: 310px;
+    position: absolute;
+    right: 117px;
+    width: 331px;
+}
+
+#footer{
+    width:100%;
+    height:270px;
+    clear:both;
+    background:url("../img/stripe.png") repeat;
+    margin-top:50px
+}
+.f{
+  margin-top:0 !important
+}
+#foot{
+    width:1200px;
+    position:relative;
+    margin:0 auto
+}
+.cloud{
+    position: relative;
+    z-index: 1;
+}
+#cloud{
+    background: url("../img/cloud.png") repeat-x scroll -11px 0 transparent;
+    height: 80px;
+    position: absolute;
+    top: -58px;
+    width: 100%;
+}
+#logofoot{
+    background: url("../img/logofooter.jpg") no-repeat scroll 0 0 transparent;
+    height: 56px;
+    left: 30px;
+    position: absolute;
+    width: 191px;
+    z-index: 2;
+    text-indent:-10000px;
+    top: -63px;
+}

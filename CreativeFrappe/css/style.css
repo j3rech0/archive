@@ -1,0 +1,70 @@
+/*Jech - TechForge I.T. Solutions Inc. XHTML/CSS DEVELOPER, Junior Web Designer*/
+html {overflow: -moz-scrollbars-vertical} /*put scrollbar in ff*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align:center;
+	background:url("../img/bg.png") repeat 0 0 #fff;
+	color:#fff;
+	font:normal 12px/18px arial;
+	
+}
+:focus{
+	outline:0 none
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*forms*/
+input,textarea{border:1px solid #666666}/*input:focus,textarea:focus{background:#FCF4CF;border:1px solid #000}*/textarea{vertical-align:sub;overflow:hidden}
+input[type="checkbox"], input[type="radio"]{background: transparent;border: 0}
+/*misc*/
+/* removing dotted line on buttons and clickable input elements for Firefox */
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, button::-moz-focus-inner {border:0}
+/* Remove outline on buttons and clickable input elements for WebKit Browsers & IE8 */
+input[type="submit"]:focus, input[type="button"]:focus, input[type="text"]:focus, button{outline:none}
+input[type="submit"]:hover{cursor:pointer}
