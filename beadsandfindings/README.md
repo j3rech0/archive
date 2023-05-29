@@ -1,2 +1,2 @@
-![Applic8](./screenshot.png)
+![BeadsAndFindings](./screenshot.png)
 
