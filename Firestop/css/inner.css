@@ -1,0 +1,158 @@
+#wrapper{
+    text-align:left;
+    width:606px;
+    margin:0 auto
+}
+#header{
+    float:left
+}
+#header h2{
+    text-indent:-10000px;
+    background:url("../img/logo-banner.png") no-repeat center center;
+    width:587px;
+    margin-top:20px;
+    height:162px
+}
+#header h2 a{
+    display:block;
+    height:100%
+}
+#navigation ul li{
+    float:left;
+    margin:0 21px;
+    padding:3px 0;
+}
+#navigation{
+   background:none repeat scroll 0 0 #1E1E1E;
+    float:left;
+    margin-left:4px;
+    position:relative;
+    width:579px;
+}
+#navigation ul{
+    padding-left:94px;
+    -moz-box-shadow:0 2px 2px 0 #696969;-webkit-box-shadow:0 2px 2px 0 #696969;box-shadow:0 2px 2px 0 #696969;
+}
+#ribLeft{
+   background:url("../img/nav-ribbon.png") no-repeat scroll 0 0 transparent;
+    height:33px;
+    left:-17px;
+    position:absolute;
+    top:0;
+    width:17px
+}
+#ribRight{
+   background:url("../img/nav-ribbon.png") no-repeat scroll -17px 0 transparent;
+    height:33px;
+    right:-17px;
+    position:absolute;
+    top:0;
+    width:17px
+}
+#main{
+    -moz-border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;
+    -moz-box-shadow:0 0 8px #000000;-webkit-box-shadow:0 0 8px #000000;box-shadow:0 0 8px #000000;
+    background:none repeat scroll 0 0 #FFFFFF;
+    float:left;
+    height:auto;
+    margin-left:5px;
+    padding:0 8px 8px;
+    width:562px;
+}
+#main a,strong{
+    color:#434343;
+    font-family:"Tahoma";
+    font-weight:bold;
+    font-size:10px
+}
+#main h2{
+    font-family:"Impact";
+    font-size:14px;
+    color:#e26c16;
+    text-transform:uppercase;
+    display:block;
+    margin-bottom:8px
+}
+.topCurved{
+    height:auto;
+    border:1px solid #ccc;
+    -moz-border-radius:0 0 10px 10px;
+    -webkit-border-radius:0 0 10px 10px;
+    border-radius:0 0 10px 10px;
+    padding:16px 40px;
+    margin-bottom:16px
+}
+.bottomCurved{
+    height:auto;
+    border:1px solid #ccc;
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius:10px 10px 0 0;
+    border-radius:10px 10px 0 0;
+    padding:0 26px 14px;
+    overflow:hidden;position:relative
+}
+#copy{
+    float:left;
+    margin:10px 129px
+}
+#copy small{
+    font-size:10px;
+    color:#fff
+}
+#featured{
+    float:left;
+    width:232px;
+    margin:10px 42px 0 0
+}
+#needhelp{
+    float:left;
+    width:232px;
+    margin:10px 0 0 0
+}
+.img{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px
+}
+#featured a, #featured p > span:first-child{
+    color:#e26c16;
+    font-weight:bold;
+}
+#featured a.more,#needhelp a.more{
+    color:#c42914;
+    text-decoration:underline;
+    float:right
+}
+#featured h1,#needhelp h1{
+    background:url("../img/orangeBar.jpg") no-repeat scroll 0 6px transparent;
+    color:#494848;
+    font-family:"Impact";
+    font-size:11px;
+    text-indent:6px;
+    text-transform:uppercase;
+    margin-bottom:5px
+    
+}
+#footer{
+     border-top:3px solid #4A4A4A
+}
+#footer ul{
+    margin:4px 114px 0;
+}
+#footer ul li{
+    float:left;
+    margin:0 13px
+}
+#footer ul li a{
+    font-weight:normal;
+    text-transform:uppercase;
+    font-size:9px
+}
+#line-center{
+background:url("../img/line.jpg") repeat-y scroll center top transparent;
+    height:100%;
+    left:50%;
+    position:absolute;
+    top:0;
+    width:1px;
+}
