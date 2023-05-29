@@ -1,0 +1,1 @@
+![St. Lukes Medical Center](./screenshot.png)

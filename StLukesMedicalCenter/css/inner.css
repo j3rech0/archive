@@ -1,0 +1,750 @@
+/* jech  */
+/*blue #3a3d98 */
+.dB{
+    display: block;
+    height: 100%
+}
+#tf-wrapper{
+    text-align: left;
+    margin: 0 auto;
+    width: 1024px
+}
+#tf-body{
+    position: relative;
+    background: url("../img/testbg.jpg") no-repeat;
+    width: 1024px;
+    height: 663px
+}
+#s{
+    left: 0;
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    z-index: 10
+}
+#s input[type="text"]:hover{
+    border: 1px solid #3a3d98
+}
+#s input[type="text"]:focus{
+    width: 264px
+}
+#s input[type="image"]{
+    margin: 5px 7px
+}
+#s input[type="text"]{
+    float: left;
+    padding: 7px;
+    width: 215px
+}
+#main-menu{
+    background: none repeat scroll 0 0 #FFFFFF;
+    left: 0;
+    padding: 28px 20px 28px 15px;
+    position: absolute;
+    z-index: 10;
+    width: 252px
+}
+h1#logo{
+    background: url("../img/logo.jpg") no-repeat scroll 0 0 transparent;
+    height: 112px;
+    text-indent: -10000px;
+    width: 252px
+}
+#main-menu, #main-menu a{
+    color: #707070
+}
+#main-menu a:hover{
+    color: #3a3d98
+}
+#main-pages li,#other-pages li,#xtra-pages li{
+    text-align: right;
+    margin-bottom: 5px
+}
+#xtra-pages a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font: 14px/18px "Helvetica Neue", arial
+}
+#xtra-pages{
+    margin:10px 0 0 !important
+}
+#xtra-pages li{
+    margin: 0 0 1px 0
+}
+#main-pages a{
+    font-size: 17px;
+    text-transform: uppercase
+}
+#main-pages a span{
+    display: block;
+    font-size: 14px;
+    text-transform: none
+}
+#main-pages,#xtra-pages{
+    margin: 20px 0 0
+}
+#main-menu h3{
+    margin: 18px 0 -55px 30px
+}
+#main-menu h3 a{
+    color: #fff
+}
+#main-menu h3 a:hover{
+    text-decoration: underline;
+    color: #fff 
+}
+#main-menu,#inner-menus{
+    top: 101px
+}
+#inner-menus, #inner-menus a{
+    color: #fff
+}
+#inner-menus nav{
+    margin-top: 140px
+}
+#inner-menus li{
+    text-align: right
+}
+#inner-menus a{
+    padding: 0 6px;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    border-bottom: 1px solid #2E3192
+}
+#inner-menus a:hover{
+    background: none repeat scroll 0 0 rgba(5, 4, 136, 0.28);
+    display: block;
+    padding: 0 6px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 15, 125, 0.43)
+}
+#inner-menus{
+    background: none repeat scroll 0 0 #2E3192;
+    left: 287px;
+    /*left: 0;*/
+    min-height: 481px;
+    padding: 20px 20px 20px 100px;
+    position: absolute;
+}
+#main-pages li a em{
+    background: url("../img/main-pages-arrow.png") no-repeat -4px 0;
+    color: #FFFFFF;
+    display: none;
+    font-size: 26px;
+    height: 20px;
+    position: absolute;
+    right: -42px;
+    text-indent: -10000px;
+    top: 0;
+    width: 20px
+}
+.consultResult #main-pages li a em,.map #main-pages h2 em{
+    background: url("../img/blue-arrow.png") no-repeat scroll 0 0 transparent;
+    color: #2E3192;
+    font-size: 26px;
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: -21px;
+    text-indent: -10000px;
+    top: -20px;
+    width: 23px;
+    z-index: 300;
+}
+.consultResult #inner-menus header h1{
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+.consultResult #inner-menus header h2{
+    font-weight: normal
+}
+#other-pages li{
+    margin: 6px 0 0
+}
+#other-pages a{
+    font-size: 14px
+}
+#other-pages a i{
+    font: italic 14px/18px "Futura Light Italic", arial;
+}
+#main-pages li a{
+    position: relative
+}
+#main-pages li a:hover em,#main-pages li#active a em{
+    display: block
+}
+#footer{
+    bottom: 10px;
+    position: absolute;
+    right: 0;
+    z-index: 20
+}
+#footer li{
+    float: left;
+    margin-right: 20px
+}
+#footer a{
+    color: #fff;
+    font: bold 15px/18px "Helvetica Neue", Helvetica, arial
+}
+#footer a:hover{
+    text-decoration: underline
+}
+#footer li#fb a:hover{
+    opacity: 1
+}
+#footer li#fb a{
+    display: block;
+    opacity: 0.9;
+    text-indent: -10000px;
+    background: url("../img/facebook_32.png") no-repeat;
+    width: 20px;
+    height: 20px
+}
+#sup{
+    bottom: 90px;
+    position: absolute;
+    right: 0;
+    width: 469px
+}
+#sup h1{
+    background: none repeat scroll 0 0 rgba(5, 7, 81, 0.71);
+    color: #FFFFFF;
+    font: italic 35px "Garamond Book Condensed", Georgia;
+    padding: 4px 8px;
+    text-align: right
+}
+#sup h1 span{
+    display: block;
+    font: 18px "Futura Book";
+    text-transform: uppercase
+}
+#sup ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: right
+}
+#sup li a{
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    height: 14px;
+    text-indent: -10000px;
+    width: 14px
+}
+#sup li a:hover{
+    background: #b0b0b0
+}
+#sup li#active a{
+    background: #ff0000
+}
+#sup li{
+    margin-right: 7px;
+    float: left
+}
+#sup li:last-child{
+    margin-right: 0
+}
+.consultResult #main-menu{
+    min-height: 429px;
+    height: 429px;
+    padding: 2px 20px 28px 15px
+}
+.consult #s{
+    background: transparent;
+    position: static;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    margin-top: 150px;
+}
+.consult #s input[type="text"]{
+    width: 181px
+}
+.consult #inner-menus nav{
+    margin-top: 0
+}
+.consult #inner-menus{
+    height: 398px;
+    min-height: 398px
+}
+.consult #inner-menus ul{
+    float: left;
+    margin-right: 90px
+}
+.consult #inner-menus ul:nth-child(3n-3){
+    margin-right: 0;
+}
+#btmMenu{
+    position: absolute;
+    right: 0;
+    bottom: 50px
+}
+#btmMenu a{
+    background: url("../img/gallery.jpg") no-repeat;
+    display: block;
+    text-indent: -10000px;
+    width: 43px;
+    height: 34px;
+    opacity: 0.8
+}
+#btmMenu a:hover{
+    background: url("../img/gallery.jpg") no-repeat 0 -34px;
+    opacity: 1
+}
+#topMenu{
+    position: absolute;
+    right: 0;
+    top: 0
+}
+#topMenu a{
+    background: none repeat scroll 0 0 #2E3192;
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    padding: 12px;
+    text-transform: uppercase
+}
+#topMenu a:hover{
+    color: #2e3192;
+    background: #fff
+}
+.consultResult{
+    background: none !important
+}
+.consultResult #main-menu h1 span{
+    color: #3A3D98;
+    display: block;
+    font-size: 30px
+}
+.consultResult table{
+    margin-bottom: 50px
+}
+.consultResult table th{
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-right: 50px
+}
+.consultResult table td{
+    line-height: 14px;
+    padding-top: 20px
+}
+.consultResult table th:nth-child(4n-4){
+    padding-right: 0
+}
+.consultResult #main-menu h1{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 33px;
+    margin-bottom: 0;
+    text-align: right;
+    text-transform: uppercase;
+}
+.consultResult #main-menu p{
+    font-size: 14px;
+    text-align: right;
+    margin: 0
+}
+.consultResult #main-pages{
+    margin:50px 0 0 0
+}
+.consultResult #inner-menus{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 2px solid #3A3D98;
+    padding: 2px 20px;
+    color: #707070
+}
+.consultResult #main-pages a{
+    font-size: 15px;
+    text-transform: none;
+}
+.consultResult #main-pages a span{
+    color: #3A3D98;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase
+}
+#inner-menus .navigation-right{
+    float: right
+}
+#inner-menus .navigation-right ul{
+    margin: 0 !important; 
+    padding: 0;
+    list-style: none
+}
+#inner-menus .navigation-right a{
+    color: #707070;
+    border: 0;
+    padding: 0;
+    
+}
+#inner-menus .navigation-right li#prev a,#inner-menus .navigation-right li#more a{
+    text-transform: uppercase
+}
+#inner-menus .navigation-right li#prev a:hover,#inner-menus .navigation-right li#more a:hover{
+    color: #3a3d98;
+    font-size: 14px;
+    text-decoration: underline
+}
+#inner-menus .navigation-right a:hover,#inner-menus .navigation-right li#active a{
+    background: transparent;
+    font-size: 17px;
+    color: #3A3D98;
+    padding: 0
+}
+#inner-menus .navigation-right li{
+    float: left;
+    padding-left: 8px
+}
+.contact div.topInfo{
+    font-size: 15px;
+    margin: 70px 0 30px;
+    text-align: right
+}
+.contact div.btmInfo{
+    font-size: 12px;
+    margin: 40px 0 0;
+    text-align: right
+}
+.contact div.btmInfo a{
+    color: #3A3D98 !important;
+    display: block;
+    font-weight: bold
+}
+.contact div.btmInfo a:hover{
+    text-decoration: underline
+}
+.contact #inner-menus{
+    padding: 20px 20px 20px 50px
+}
+.contact #inner-menus input[type="text"],.contact #inner-menus textarea{
+    background: none repeat scroll 0 0 transparent;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    text-align: right;
+    width: 170px;
+}
+.contact #inner-menus input[type="submit"]{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: Helvetica Neue;
+    font-size: 17px;
+    opacity: 1;
+    text-transform: uppercase
+}
+.contact #inner-menus textarea{
+    padding: 10px;
+    height: 100px
+}
+.contact #inner-menus .text{
+    text-align: right;
+    width: 192px
+}
+.map{
+    background: url("../img/testbg.jpg") no-repeat scroll 0 0 transparent !important
+}
+.map #main-menu{
+    min-height: 633px;
+    top: 0
+}
+.map #main-pages{
+    margin: 32px 0 0;
+    text-align: right
+}
+.map #main-pages h2{
+    font-size: 17px;
+    font-weight: normal;
+    position: relative
+}
+.map #main-pages h2 a:hover em{
+    display: block
+}
+.map #main-pages h2 em{
+    right: -26px;
+    text-indent: -10000px;
+    top: -1px
+}
+.map #main-pages p{
+    font-size: 13px;
+    line-height: 15px
+}
+.map #main-menu .info{
+    font-size: 16px;
+    padding-top: 80px;
+    text-align: right
+}
+.map #inner-menus{
+    padding: 0
+}
+.map #s{
+    margin: 10px 0 0;
+    text-align: right
+}
+.map #s ul{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0
+}
+.map #s a{
+    color: #3A3D98;
+    font-size: 14px;
+    text-transform: uppercase
+}
+.map #s a:hover{
+    text-decoration: underline
+}
+.news{
+    background: #fff !important;
+}
+.news .slider .content{
+    font-family: Verdana, arial;
+    padding: 0 10px
+}
+.news .slider .content header h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 8px
+}
+.news .slider .content header h2,.news .slider .content header h3{
+    font-weight: normal
+}
+.news .slider{
+    padding: 52px 64px
+}
+.news .slider .content .img-right a{
+    display: block;
+    height: 100%
+}
+.news .slider .content .img-right{
+    float: right;
+    width: 239px;
+    height: 327px;
+    background: #888;
+    margin: 20px 0 0 20px
+}
+.news a#a-r:hover{
+    background: url("../img/arrow-gray.jpg") no-repeat scroll -39px 0 transparent;
+}
+.news a#a-r{
+    background: url("../img/arrow-gray.jpg") no-repeat scroll -26px 0 transparent;
+    display: block;
+    height: 16px;
+    right: 30px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 280px;
+    width: 13px;
+}
+.news a#a-l:hover{
+    background: url("../img/arrow-gray.jpg") no-repeat scroll 0 0 transparent;
+}
+.news a#a-l{
+    background: url("../img/arrow-gray.jpg") no-repeat scroll -13px 0 transparent;
+    display: block;
+    height: 16px;
+    left: 30px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 280px;
+    width: 13px;
+}
+.news .hor-1,.news .hor-2{
+    border: 1px solid #fff
+}
+.news .feat-img{
+    background: #888
+}
+.news .hor-1{
+    height: 228px;
+    padding: 20px;
+    width: 520px;
+}
+.news .left{
+    float: left
+}
+.news .hor-2 h1,.news .hor-1 h1,.news .hor-1 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px
+}
+.news .hor-1 h2{
+    font-size: 25px
+}
+.news .hor-2{
+    height: 228px;
+    overflow: hidden;
+    padding: 20px;
+    width: 272px;
+}
+.news .hor-2 .news-img{
+    width: 155px;
+    height: 181px;
+    margin: 10px 0 0 10px;
+    background: #888
+}
+.news .hor-2 .right{
+    float: right
+}
+/*@media only screen and (max-width: 959px){
+  #main-menu, #main-menu a{
+    color: red
+  }
+}*/
+/*MICROSITE*/
+.micro p{font-size: 13px}
+.micro{
+    margin-left:287px;
+    padding:40px 0;
+    position: relative
+}
+.micro #article,.micro #gallery{
+    overflow: hidden;
+    margin: 5px 0
+}
+.micro #article h1{
+    font-size:28px;
+    font-weight:normal;
+    line-height:29px;
+    text-transform:uppercase
+}
+.micro #article h1 span{
+    color:#3A3D98;
+    display:block;
+    font-size:30px
+}
+.micro .micro-right{
+    float:left;
+    width:193px
+}
+.micro .micro-left{
+    width: 500px;
+    float: left;
+    padding: 20px
+}
+.micro #article .micro-left{
+    border-left:2px solid #3A3D98
+}
+.micro #article .micro-left:before{
+    background: url("../img/blue-arrow.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    height: 21px;
+    left: -18px;
+    position: absolute;
+    top: 160px;
+    width: 18px;
+    z-index: 99;
+}
+.micro #article .micro-left ul li{
+    color: #707070;
+    font-size: 13px;
+    list-style-image: url("../img/list.png");
+}
+.micro #article .micro-right a#active{
+    padding: 8px;
+    background: #3A3D98;
+    color: #fff
+}
+.micro #article .micro-right a{
+    border-left: 2px solid #3A3D98;
+    float: left;
+    font-size: 14px;
+    margin: 0 0 12px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 170px;
+}
+.micro .micro-left a{
+    display:block;
+    font-size:14px;
+    padding:2px
+}
+.micro #article .micro-left a:hover{
+    color:#3A3D98;
+}
+.micro #article .micro-left ul ul li{
+    list-style-image: url("../img/list2.png");
+}
+.micro #article .micro-left ul ul ul li{
+    list-style-image: url("../img/list3.png");
+}
+.micro #gallery ul{
+    list-style: none;
+    margin: 0 ;
+    padding: 0
+}
+.micro #gallery img{
+    background:none repeat scroll 0 0 #CCCCCC;
+    display:block;
+    height:140px;
+    width:140px
+}
+.micro .fR{
+    float: right
+}
+.micro #gallery .micro-left span.view a:hover,.micro #news .micro-left span.view a:hover{
+    text-decoration: underline
+}
+.micro #gallery .micro-left span.view a,.micro #news .micro-left span.view a{
+    color:#3A3D98;
+    font-size:16px;
+
+}
+.micro #gallery li{
+    float:left;
+    margin: 0 8px 8px 0
+}
+.micro #gallery .micro-right a{
+    display: block;
+    font-size: 14px
+}
+.micro #news .micro-left article{
+    float:left;
+    margin:0 20px 0 0;
+    width:200px
+}
+.micro #news .micro-left .news-list{
+    float: left;
+    width: 275px
+}
+.micro #news .micro-left .news-list p{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 8px
+}
+.micro #news article img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: #ccc;
+    margin-bottom: 8px
+}
+.micro #faq a{
+    display: block;
+    margin: 0 0 10px;
+    color:#3A3D98;
+}
+.micro #faq article p:after{
+    background: url(../img/gray-arrow.png) no-repeat;
+    content: "";
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 13px;
+    height: 11px
+}
+.micro #faq article{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    position: relative
+}
