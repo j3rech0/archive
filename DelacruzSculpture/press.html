@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="DelaCruz Sculpture" />
+<title>DelaCruz - Sculpture | Press</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="inner.css" />
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<!--slideshowcss-->
+<!--[if IE]>
+    <style type="text/css">
+        SELECTOR HERE CAN BE # or . { zoom: 1; /* fix issue of IE6,IE7 which if you have container with background repeated node text will be invisible, and visible when scroll bar trigger */}
+    </style>
+<![endif]-->
+
+<!--slideshowcss-->
+
+<!--slideshowjs-->
+
+<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+	$("#firstpane p.menu_head").click(function()
+    {
+		$(this).css({backgroundImage:"url(img/ad.gif)"}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+	});
+	//slides the element with class "menu_body" when mouse is over the paragraph
+	
+	
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h2><a href="index.html" title="DelaCruz - Sculpture">DelaCruz - Sculpture</a></h2>
+    </div>
+  </div>
+  <div id="content">
+    <div id="leftCol">
+      <div id="firstpane" class="menu_list">
+        <p class="menu_head"><a href="index.html"><img src="img/blank.gif" width="77" height="66" style="background:url(img/nav.jpg) no-repeat; width:77px; height:14px" alt="Work"/></a></p>
+        <div class="menu_body"> <a href="#" class="active_link">Precipice</a> <a href="#">Counter poise</a> <a href="#">Passage</a> <a href="#">Journey</a> <a href="#">Himig</a> <a href="#">Parangal</a> <a href="#">Kandungan</a> </div>
+        <p class="menu_head_unlinked"><a href="press.html"><img src="img/blank.gif" width="77" height="66" style="background:url(img/nav.jpg) no-repeat 0 -17px; width:77px; height:14px" alt="Press"/></a></p>
+        <p class="menu_head_unlinked"><a href="about.html"><img src="img/blank.gif" width="77" height="66" style="background:url(img/nav.jpg) no-repeat 0 -34px; width:77px; height:14px" alt="About"/></a></p>
+        <p class="menu_head_unlinked"><a href="contact.html"><img src="img/blank.gif" width="77" height="66" style="background:url(img/nav.jpg) no-repeat 0 -51px; width:77px; height:14px" alt="Contact"/></a></p>
+      </div>
+      <div id="share"><a href="#">sharethis</a></div>
+    </div>
+    <div id="rightCol" class="rightCol">
+      <h2>Press</h2>
+      <ul id="plist">
+        <li><a href="#">Lorem Ipsum</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+      </ul>
+      <div id="cont">
+        <h1>Lorem Ipsum</h1>
+        <small>01/01/2010</small>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+      </div>
+      <div class="pagination">
+        <ul id="pagination">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">»</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <ul>
+      <li>NO FOOTER</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
