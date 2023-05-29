@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Trips and Travel" />
+<title>Trips and Travel | Contact</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/css.css" />
+<script type="text/javascript" src="js/all.js"></script>
+<!--[if IE]>
+    <style type="text/css">
+        SELECTOR HERE CAN BE # or . { zoom: 1; /* fix issue of IE6,IE7 which if you have container with background repeated node text will be invisible, and visible when scroll bar trigger */}
+    </style>
+<![endif]-->
+</head>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	//Default Action
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+
+});
+</script>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h2><a href="index.html" title="trips and travel">Trips and Travel</a></h2>
+      <p>Travel Related Incentive Programs &amp; Services</p>
+      <!--<h1 id="slogan1">Travel Related Incentive Programs & Services</h1>
+      <h1 id="slogan2"></h1>--> 
+    </div>
+     <img src="img/black.gif" style="background:url(img/headerimg.jpg) no-repeat;width:213px;height:94px" alt="trips and travel"/>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html" title="Home">Home </a>|</li>
+        <li><a href="tour.html" title="Tour Packages">Tour Packages </a>|</li>
+        <li><a href="accommodations.html" title="Accommodations">Accommodations </a>|</li>
+        <li><a href="whatsnew.html" title="What's New">What's New </a>|</li>
+        <li><a href="about.html" title="About Us">About Us </a>|</li>
+        <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+        <li id="login-search"><a href="#" id="button">Login</a>&nbsp;|&nbsp;
+          <input type="text" onblur="if(this.value=='')this.value='Search';" onfocus="if(this.value=='Search')this.value='';" value="Search" name="search" class="s">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content contact">
+    <div id="cl">
+      <h2>Inquiry</h2>
+      <form action="/" method="post">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td><label for="name">Name</label><label class="err">error message</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="name" value=""/></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email Address</label><label class="err">error message</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="email" value=""/></td>
+          </tr>
+          <tr>
+            <td><label for="msg">Message</label><label class="err">error message</label></td>
+          </tr>
+          <tr>
+            <td><textarea name="msg"></textarea></td>
+          </tr>
+          <tr>
+            <td align="right"><input type="button" value="submit" class="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div id="cr">
+      <ul class="tabs">
+        <li class="active"><a id="envelop" href="#tab1">Contact</a></li>
+        <li><a href="#tab2">Find Us</a></li>
+      </ul>
+      <div class="tab_container">
+        <div class="tab_content" id="tab1" style="display: block;"> 
+        <h2>Our Office</h2>
+        <p align="center">T.R.I.P.S. Travel<br />
+Travel Related Incentive Programmes and Services, Inc. <br />
+2nd Floor, Atrium Building,<br />
+Makati Avenue,<br />
+Makati City, Philippines<br />
+Tel: <br />
++632 811 4115; +632 811 4163;<br />
++632 811 4069; +632 811 4101<br />
+Fax: <br />
++632 811 4013<br />
+E-mail: 
+<a href="mailto:trips@tripstravel-phil.com">trips@tripstravel-phil.com</a><br />
+Website: <a href="#">www.tripstravel-phil.com</a>
+</p>
+        </div>
+        <div class="tab_content" id="tab2" style="display: none;">
+        <img src="img/map.jpg" alt="map"/>
+         </div>
+      </div>
+    </div>
+    <div id="contactimg"></div>
+    <div id="footer"> <a href="#" title="Department of Tourism"><img src="img/black.gif" style="background:url(img/dot.jpg) no-repeat;width:72px;height:70px"/></a> <a href="#" title="PhilTOA"><img src="img/black.gif" style="background:url(img/philtoa.jpg) no-repeat;width:115px;height:60px"/></a> <a class="center" href="privacy.html">Privacy Policy |</a> <a  class="center" href="terms.html">Terms of Service |</a> <a class="center"  href="faq.html">FAQ</a>
+      </ul>
+      <div id="footer1"> 
+       
+      </div>
+    </div>
+  </div>
+  <!--login area-->
+  <div id="popupContact">
+    <h2>Login Area</h2>
+    <a id="popupContactClose">x</a>
+    <form action="/" method="get" id="login">
+      <table cellpadding="0" cellspacing="0" border="0">
+     <tr>
+        <td colspan="2"><span class="err">error message</span></td>
+      </tr>
+      <tr>
+        <td valign="right"><lable for="id">Login ID:</label></td><td><input type="text" name="id" /></td>
+      </tr>
+      <tr>
+        <td valign="right"><lable for="id">Password:</label></td><td><input type="password" name="password" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td><td><input type="button" value="Login"  style="width:110px;height:30px"/></td>
+      </tr>
+    </table>
+    </form>
+  </div>
+  <div id="backgroundPopup"></div>
+</div>
+</body>
+</html>

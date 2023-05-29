@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Trips and Travel" />
+<title>Trips and Travel | Tour</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/css.css" />
+<script type="text/javascript" src="js/all.js"></script>
+<!--[if IE]>
+    <style type="text/css">
+        SELECTOR HERE CAN BE # or . { zoom: 1; /* fix issue of IE6,IE7 which if you have container with background repeated node text will be invisible, and visible when scroll bar trigger */}
+    </style>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h2><a href="index.html" title="trips and travel">Trips and Travel</a></h2>
+      <p>Travel Related Incentive Programs &amp; Services</p>
+      <!--<h1 id="slogan1">Travel Related Incentive Programs & Services</h1>
+      <h1 id="slogan2"></h1>--> 
+    </div>
+    <img src="img/black.gif" style="background:url(img/headerimg.jpg) center center no-repeat;width:213px;height:94px" alt="trips and travel"/>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html" title="Home">Home </a>|</li>
+        <li><a href="tour.html" title="Tour Packages">Tour Packages </a>|</li>
+        <li><a href="accommodations.html" title="Accommodations">Accommodations </a>|</li>
+        <li><a href="whatsnew.html" title="What's New">What's New </a>|</li>
+        <li><a href="about.html" title="About Us">About Us </a>|</li>
+        <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+        <li id="login-search"><a href="#" id="button">Login</a>&nbsp;|&nbsp;
+          <input type="text" onblur="if(this.value=='')this.value='Search';" onfocus="if(this.value=='Search')this.value='';" value="Search" name="search" class="s">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content tour clicked1 clicked2">
+    <h2>Tour Packages<span> > Round Trips</span><span> > Boracay</span></h2>
+    <div id="tc2l">
+      <h1>Island Beach Holidays BORACAY
+        The Island Paradise </h1>
+    </div>
+    <h1 class="tc2st">Day 01 Arrival MANILA or CEBU</h1>
+    <p>Arrival Manila. Welcome reception and airport assistance. Transfer to hotel for accommodations. Tour briefing.</p>
+    <p>If flying in via Cebu: </p>
+    <p class="indented">One  time entrance ticket to Crown Regency Tower's Sky Adventure and Edge coaster Experience</p>
+    <h1 class="tc2st">Day 02  MANILA or CEBU/BORACAY</h1>
+    <p> If flying in via Manila:</p>
+    <p class="indented">AM - Choice of Hop On/Hop Off Manila tour by land or by Pasig river cruise 
+      Transfer to airport to take early afternoon flight for Kalibo. </p>
+    <p>If flying in via Cebu</p>
+    <p class="indented"> Transfer out to Mactan domestic airport for flight to Kalibo
+      Transfer to Caticlan Jetty port to board motorized boat for Boracay Island. Check in at resort for 
+      accommodations. Rest of afternoon is free. (B)</p>
+  </div>
+  <div id="tc2r">
+    <h2>Registration Form</h2>
+    <form id="Register" action="/" method="POST">
+      <table cellpadding="2" cellspacing="0" border="0">
+        <tr>
+          <td width="150"><label for="UserID">Last Name:</label></td>
+          <td width="140"><input name="UserID" type="text" size="15" /></td>
+          
+        </tr>
+        <tr>
+          <td><label for="fname">First Name:</label></td>
+          <td><input name="fname" type="text"  size="15" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input name="email" type="text" size="15" /></td>
+        </tr>
+        <tr>
+          <td><label for="contact">Contact Number:</label></td>
+          <td><input name="contact" type="text" size="15" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td><input name="gender" type="radio" class="radio" />Male<input name="gender" type="radio" class="radio" />Female</td>
+        </tr>
+        <tr>
+          <td><label for="pax">No. of Pax:</label></td>
+          <td><input name="pax" type="text" /></td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top"><label for="msg">Message:</label></td>
+          <td><textarea name="msg"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="control" value="Register" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="footer"> <a href="#" title="Department of Tourism"><img src="img/black.gif" style="background:url(img/dot.jpg) center center no-repeat;width:72px;height:70px"/></a> <a href="#" title="PhilTOA"><img src="img/black.gif" style="background:url(img/philtoa.jpg) center center no-repeat;width:115px;height:60px"/></a> <a class="center" href="privacy.html">Privacy Policy |</a> <a  class="center" href="terms.html">Terms of Service |</a> <a class="center"  href="faq.html">FAQ</a>
+    </ul>
+    <div id="footer1"> 
+     
+    </div>
+  </div>
+</div>
+<!--login area-->
+<div id="popupContact">
+  <h2>Login Area</h2>
+  <a id="popupContactClose">x</a>
+  <form action="/" method="get" id="login">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td colspan="2"><span class="err">error message</span></td>
+      </tr>
+      <tr>
+        <td valign="right"><lable for="id">
+          Login ID:
+          </label></td>
+        <td><input type="text" name="id" /></td>
+      </tr>
+      <tr>
+        <td valign="right"><lable for="id">
+          Password:
+          </label></td>
+        <td><input type="password" name="password" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="button" value="Login" class="s" style="width:110px;height:30px"/></td>
+      </tr>
+    </table>
+  </form>
+</div>
+<div id="backgroundPopup"></div>
+</div>
+</body>
+</html>

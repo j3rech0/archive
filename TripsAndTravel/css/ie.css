@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document hack for ie's and other browsers */
+
+.clicked2 h1{_padding-left:20px;]padding-left:20px}
+.clicked1 .tc1{_padding:8px}
+
+.radio{_width:10px !important;height:10px;_margin:5px !important;_border:none !important}
+.radio{]width:10px !important;]height:10px;]margin:5px !important;]border:none !important}
+.radio{border:0 !important;\}
+
