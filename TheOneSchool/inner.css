@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document here comes inner and all childnode selector */
+#logo {
+	padding:30px 0 0 30px;
+}
+#logo h2 {
+	background:url(img/logo.jpg) no-repeat;
+	width:400px;
+	text-indent:-10000px;
+	height:85px;
+}
+#logo h2 a {
+	display:block;
+	height:100%;
+}
+.greyline {
+	height:7px;
+	width:100%;
+	background:#ccc;
+	margin-top:5px;
+}
+.footerg {
+	margin:22px 0 12px 0;
+}
+div#nav {
+	height:50px;
+	padding-top:5px;
+}
+ul#menu li {
+	text-indent:-10000px;
+	float:left;
+	margin-left:26px;
+}
+ul#menu li a {
+	display:block;
+	height:100%;
+}
+#ex {
+	background:url(img/exploretheworld.jpg) no-repeat;
+	width:212px;
+	height:25px;
+	padding-left:0 !important;
+	margin-left:0 !important;
+}
+#ab {
+	background:url(img/about.jpg) no-repeat;
+	width:85px;
+	height:25px;
+}
+#sc {
+	background:url(img/school.jpg) no-repeat;
+	width:99px;
+	height:25px;
+}
+#de {
+	background:url(img/degrees.jpg) no-repeat;
+	width:90px;
+	height:25px;
+}
+#fa {
+	background:url(img/facilities.jpg) no-repeat;
+	width:104px;
+	height:25px;
+}
+#up {
+	background:url(img/updates.jpg) no-repeat;
+	width:90px;
+	height:25px;
+}
+#co {
+	background:url(img/contact.jpg) no-repeat;
+	width:104px;
+	height:25px;
+}
+#front {
+	background:url(img/front.jpg) no-repeat;
+	width:941px;
+	height:298px;
+}
+#footerimg {
+	background:url(img/theoneschoolfooter.jpg) -4px 0 no-repeat;
+	width:171px;
+	height:20px;
+	padding-bottom:5px;
+	text-indent:-10000px;
+}
+#campusimg {
+	background:url(img/campusupdates.jpg) no-repeat;
+	width:175px;
+	height:18px;
+	padding-bottom:5px;
+	text-indent:-10000px;
+}
+#address, #campus {
+	float:left;
+	padding-right:50px;
+}
+#mail {
+	float:left;
+	color:#666;
+	padding:0 34px;
+	_padding:0 18px;
+}
+#socialmedia {
+	padding-top: 5px;
+	text-indent:-10000px;
+}
+ul#socialmedia li a {
+	display:block;
+	height:100%;
+}
+ul#socialmedia li {
+	margin-right:9px;
+}
+#sk {
+	background:url(img/socialmedia.jpg) no-repeat;
+	height:20px;
+	width:21px;
+}
+#sk a:hover {
+	background:url(img/socialmedia.jpg) 0 -20px no-repeat;
+	height:20px;
+	width:21px;
+}
+#tw {
+	background:url(img/socialmedia.jpg) no-repeat scroll -32px 0 transparent;
+	height:20px;
+	width:21px;
+}
+#tw a:hover {
+	background:url(img/socialmedia.jpg) -32px -20px no-repeat;
+	height:20px;
+	width:21px;
+}
+#rs {
+	background:url(img/socialmedia.jpg) no-repeat scroll -63px 0 transparent;
+	height:20px;
+	width:21px;
+}
+#rs a:hover {
+	background:url(img/socialmedia.jpg) -63px -20px no-repeat;
+	height:20px;
+	width:21px;
+}
+#fb {
+	background:url(img/socialmedia.jpg) no-repeat scroll -94px 0 transparent;
+	height:20px;
+	width:21px;
+}
+#fb a:hover {
+	background:url(img/socialmedia.jpg) -94px -20px no-repeat;
+	height:20px;
+	width:21px;
+}
+.about, .updates {
+	height:auto;
+}
+.box, .leftPanel, .update {
+	width:301px;
+	float:left;
+}
+.leftPanel {
+	padding-right:19px;
+}
+.rightPanel, .up {
+	width:620px;
+	float:left;
+}
+.rightPanel h3 {
+	font:normal 23px Arial, Helvetica, sans-serif;
+	color:#666;
+	text-transform:uppercase;
+}
+.rightPanel h4 {
+	font:normal 20px Arial, Helvetica, sans-serif;
+	color:#666;
+	padding-bottom:20px;
+}
+.vision, .phil, .ba, .aa, .update {
+	padding-left:18px;
+}
+.update_1 {
+	padding-left:0 !important;
+}
+div.box a#bs {
+	color:#00CC33;
+}
+div.box a#ba {
+	color:#0099cc;
+}
+div.box a#aa {
+	color:#ffcc00;
+}
+div.mission img, div.bs img {
+	border-bottom:14px solid #00CC33;
+}
+div.update img, .update_1 img {
+	border-bottom:14px solid #ff0000;
+}
+div.vision img, div.ba img {
+	border-bottom:14px solid #0099cc;
+}
+div.phil img, div.aa img {
+	border-bottom:14px solid #ffcc00;
+}
+#bs, #ba, #aa {
+	text-decoration:underline;
+}
+#basic-accordian {
+	width:300px;
+}
+.accordion_headings {
+	background:#fff;
+	color:#FFFFFF;
+	height:22px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.red {
+	border-top:14px solid #ff0000 !important;
+}
+#test-header {
+	border-top:14px solid #00cc33;
+}
+#test-header-one {
+	border-bottom:14px solid #00cc33;
+}
+#test1-header {
+	border-top:14px solid #0099cc;
+}
+#test2-header {
+	border-top:14px solid #ffcc00;
+}
+#test3-header {
+	border-top:14px solid #cc33ff;
+}
+#test4-header {
+	border-top:14px solid #ff0099;
+}
+.accordion_child {
+	padding:15px 0 15px 0;
+	background:#fff;
+}
+.accordion_child ul {
+	list-style:square inside none;
+	padding-bottom:6px;
+}
+.accordion_child ul li {
+	color:#333 !important;
+}
+.header_highlight {
+	background:#fff;
+}
+.vr {
+	background:url(img/samplevr.jpg) no-repeat;
+	width:620px;
+	height:466px;
+}
+#contactform, #gmap {
+	float:left;
+}
+#gmap {
+	margin:15px 0 0 22px;
+	background:#f3f3f3;
+	width:538px;
+	height:276px;
+}
+p.degree-right-text {
+	font-size:20px;
+	color:#666;
+}

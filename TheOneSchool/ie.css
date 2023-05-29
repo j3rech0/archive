@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document hack for ie's and other browsers */
+
+/** html .selector_IE6 {
+	color:red; /* for IE6 */
+
+
+html* .selector_IE7 { /* for IE7 */
+]color:green;
+}
+
+.selector_IE8 { /* for IE8 */
+	color:grey;\
+}
+
+
+.selector_chrome {  /* for chrome */
+color:blue;] 
+}
+ 
+ */
+ 
+#mail{
+_padding:0 10px 16px;	
+}

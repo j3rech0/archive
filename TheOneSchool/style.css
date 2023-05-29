@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0
+}
+html {
+	overflow: -moz-scrollbars-vertical; /* always display the vertical scrollbar in firefox */
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration:none;
+	color:#000;
+}
+input {
+	border:1px solid #CCC;
+}
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+	color:#2786c2;
+	outline: none;
+	cursor: pointer;
+}
+h2 {
+	font:normal 18px Arial, Helvetica, sans-serif !important
+}
+a:hover {
+	color:#f75342;
+	cursor: pointer;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	background: #ccc;
+	color: #000;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#wrapper {
+	margin:0 auto;
+	width:940px;
+	height:auto;
+	background:#fff;
+	position:relative;
+	padding:0 40px;
+	_padding:0 33px;
+}
+#header {
+	background:#fff
+}
+.content {
+	background:#fff;
+	overflow:hidden;
+}
+#footer { /* #footer ul > li  -- this will not work on ie6 */
+	background:#fff;
+	color:#000 !important;
+	overflow:hidden;
+	padding-bottom:22px;
+	clear:both;
+	_margin-bottom:22px;
+}
+#footer small {
+	font:normal 11px Arial, Helvetica, sans-serif;
+}
+#footer ul li {
+	font:normal 11px Verdana, Geneva, sans-serif;
+	color:#666;
+	float:left;
+}
+p.about, p.school {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#333;
+	line-height:1.7em;
+	text-align:justify;
+}
+.greyTxt {
+	color:#999;
+	font-size:14px;
+	padding:66px 0 0 30px;
+	text-align:center;
+	width:479px;
+}
+.whiteTxt {
+	color:#fff;
+	font-size:16px;
+	padding:10px 0 0 118px;
+	text-align:center;
+	width:299px;
+}
+.normalP, ul.update_list {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#666;
+	padding-top:10px;
+}
+#float_contact {
+	position:absolute;
+	background:url(img/floatingcontact.jpg) no-repeat;
+	width:30px;
+	height:150px;
+	left:0px;
+	top:200px;
+	text-indent:-10000px;
+}
+#float_contact a{display:block;height:100%;
+}
+ul.update-list {
+	padding:0 !important;
+	line-height:2em;
+}
+ul.update_list {
+	line-height:2em;
+}
+ul.update_list li {
+	color:#666;
+	text-align:justify;
+}
+label.contact_label, .degreeTxt {
+	font:normal 13px Arial, Helvetica, sans-serif;
+	color:#999;
+	margin-bottom:5px;
+}
+.contact_input {
+	width:380px;
+	background:#e5e5e5;
+	border:0 !important;
+	height:27px;
+	margin-bottom:10px;
+}
+textarea#msg {
+	width:380px;
+	height:110px;
+	background:#e5e5e5;
+	border:0 !important;
+	margin-bottom:10px;
+}
+#submit {
+	background:#336699;
+	width:100px;
+	height:27px;
+	text-transform:capitalize;
+	color:#fff;
+}
+#submit:hover {
+	background:#006699;
+}
+.full{
+	height:auto !important;	
+	border-top:0 !important;
+}
