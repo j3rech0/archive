@@ -1,0 +1,157 @@
+html {overflow: -moz-scrollbars-vertical} /*put scrollbar in ff*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align:center;
+	background:#fff;
+	color:#444;
+	font:normal 12px/18px Tahoma, Helvetica, Arial;
+	
+}
+:focus{
+	outline:0 none
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	color:#6b6b6b
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+strong{
+	font-weight:bold
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*forms*/
+input,textarea{border:1px solid #666666}input:focus,textarea:focus{background:#ccc;}textarea{vertical-align:sub;overflow:hidden}
+input[type="checkbox"], input[type="radio"]{background: transparent;border: 0}
+/*misc*/
+/* removing dotted line on buttons and clickable input elements for Firefox */
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, button::-moz-focus-inner {border:0}
+/* Remove outline on buttons and clickable input elements for WebKit Browsers & IE8 */
+input[type="submit"]:focus, input[type="button"]:focus, input[type="text"]:focus, button{outline:none}
+input[type="submit"]:hover{cursor:pointer}
+::-moz-selection{ background: #d9f2f2; color:#444; text-shadow: none; }
+::selection { background:#d9f2f2; color:#444; text-shadow: none; }
+
+@font-face {
+    font-family: 'Dragonfly';
+    src: url('dragonfly-webfont.eot');
+    src: url('dragonfly-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dragonfly-webfont.woff') format('woff'),
+         url('dragonfly-webfont.ttf') format('truetype'),
+         url('dragonfly-webfont.svg#Dragonfly') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FontinSans';
+    src: url('fontinsans_cyrillic_r_1-webfont.eot');
+    src: url('fontinsans_cyrillic_r_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontinsans_cyrillic_r_1-webfont.woff') format('woff'),
+         url('fontinsans_cyrillic_r_1-webfont.ttf') format('truetype'),
+         url('fontinsans_cyrillic_r_1-webfont.svg#FontinSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*global settings*/
+#item-1,#item-2,#news-navigation li,.th p,.th ul li,.hl,.hr ul li,.hr ul,.hr p,#nav ul li,#leftRail,#mid,.fcontent ul li,#rightRail,.fbox,#socialfeed span,ul#social,#social li,#breadcrumbs li{
+    float:left
+}
+.hr,.th ul,a.share,#item-preview{
+    float:right
+}
+.hl h2,.hr ul{
+    text-indent:-10000px
+}
+.hl a,.hr ul li a,#social li a,a#checkthis,.previewbox a,span.addcrtbtn a,span.addfavbtn a{
+    display:block;
+    height:100%
+}
+#nav ul,#content{
+    margin: 0 auto;
+    text-align: left;
+    width: 1000px;
+}
+.th div{
+    width:1000px;
+    margin:0 auto
+}
+#psearch,.lbox{
+    -moz-border-radius: 10px;-webkit-border-radius:10px;border-radius:10px;
+    -moz-box-shadow: 0 3px 0 rgba(194, 194, 194, 0.8);-webkit-box-shadow: 0 3px 0 rgba(194, 194, 194, 0.8);box-shadow: 0 3px 0 rgba(194, 194, 194, 0.8);
+    background: none repeat scroll 0 0 #F6F6F6;
+    padding: 17px 13px;
+    width: 197px;
+    margin-bottom:20px;
+    overflow:hidden
+}
+#psearch h2,.lbox h2{
+    font:16px tahoma;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#welcome,.featured-box{
+    margin-top:20px
+}
+a.backtotop {
+  position: absolute;
+  right: 72px;
+  top: -22px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  background: none repeat scroll
+    0pt 0pt rgb(153, 153, 153);
+  padding: 1px 7px;
+  text-shadow: 0pt 1px 0pt
+    rgb(68, 68, 68);
+}
+a.backtotop:hover{
+	background:#ccc;
+	color:#999
+}
