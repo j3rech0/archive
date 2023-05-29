@@ -1,0 +1,615 @@
+.bluelabel {
+  background: url("../img/blue_label/bg.png") repeat scroll center top transparent;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 18px;
+    position: relative;
+    width: 100%;
+    }
+header{
+  width:979px;height:261px;margin:0 auto
+}
+header.blue{
+   width:980px;height: 202px
+}
+#bleftCurv{
+  background:url("../img/blue_label/bhc.png") no-repeat 0 0;width:32px;height:261px;float:left
+}
+#brightCurv{
+  background:url("../img/blue_label/bhc.png") no-repeat -32px 0;width:31px;height:261px;float:left
+}
+#bmain_head{
+  background:url("../img/blue_label/bhm.png") repeat-x;width:916px;height:202px;float:left;position:relative
+}
+.main_blue{
+   background:url("../img/blue_label/mbg.jpg") repeat-x;height:862px !important;width:918px !important
+}
+/*blue label*/
+.blhl,.blhm,.blhr{
+   float:left
+}
+.blhl{
+   background:url("../img/blue_label/bmhc.png") no-repeat;width:37px;height:130px
+}
+.blhm{
+   background:url("../img/blue_label/bmhm.png") repeat-x;width:773px;height:130px;
+}
+.blhm h1{
+   color: #FFFFFF;font: 28px Georgia;padding: 36px 10px;text-transform: uppercase
+}
+.blhr{
+   background:url("../img/blue_label/bmhc.png") no-repeat -37px 0;width:37px;height:130px
+}
+.blue_label_content{
+   -moz-border-radius: 13px;-webkit-border-radius:13px;border-radius:13px;background: none repeat scroll 0 0 #FFFFFF;height: auto;margin-top: 95px;width: 849px
+}
+.sub_footer_blue{
+   background: none repeat scroll 0 0 #FFFFFF;padding: 13px 0;width: 918px;bottom:0 !important
+   }
+.blue_label_main{
+   padding:30px 35px
+}
+.bback{
+   background:url("../img/blue_label/bback.png") no-repeat;clear: both;display: block;height: 36px;margin: 12px;overflow: hidden;text-indent: -10000px;width: 121px;
+}
+.bback a{
+   display:block;height:100%
+}
+.blcpm{
+   margin-top: 29px;overflow: hidden;padding: 10px;
+   text-align:center
+}
+.blcpm ul,.blbox3 ul{
+   list-style:none;list-style-type:none
+}
+.blcpm span{
+   display:block;margin-top:10px
+}
+.blcpm li{
+   float: left;margin-right: 22px;text-align: center;width: 169px;height:251px
+}
+.blcpm li:last-child{
+   margin-right:0
+}
+.blcpm a{
+   color:#000;font:normal 12px Georgia
+}
+/*blue label landing*/
+.bluelabel .blbg{
+   background:url("../img/blue_label/mbg.jpg") repeat-x !important;width:918px !important;height:auto !important;
+    padding-bottom: 110px !important;
+}
+.blctop{
+   background:url("../img/blue_label/blcc.png") no-repeat;width:854px;height:19px
+}
+.blcmid{
+   background:url("../img/blue_label/blccbg.png") repeat-y;width:854px;height:500px;position:relative
+}
+.blcbot{
+   background:url("../img/blue_label/blcc.png") no-repeat 0 -19px;width:854px;height:19px
+}
+.blbox3{
+   margin-left:4px
+}
+.blbox3 li{
+   float:left;margin-right:18px
+}
+.blbox3 li:last-child{margin-right:0}
+.blcycler{
+   padding:30px
+}
+.blboxtop{
+   background:url("../img/blue_label/blboxesc.png") no-repeat;width:273px;height:16px
+}
+.blboxmid{
+   background: url("../img/blue_label/blboxebg.png") repeat-y scroll 0 0 transparent;
+    height: 236px;
+    position: relative;
+    width: 273px;
+}
+.blboxbot{
+   background:url("../img/blue_label/blboxesc.png") no-repeat 0 -16px;width:273px;height:16px
+}
+
+
+.logo{
+  background:url("../img/logo1.png") no-repeat;width:264px;height:139px;margin-top:55px;float:left
+}
+.logo h2{
+  text-indent:-10000px
+}
+.logo h2 a{
+  display: block;height: 134px;width: 100%;
+}
+.main_nav{
+  background:url("../img/main_nav.png") no-repeat;width:653px;height:139px;float:left;margin-top:55px
+}
+.main_nav_blue{
+   width:652px
+}
+.main_nav nav{
+  text-indent: -10000px; padding: 29px 0 0 58px
+}
+nav a{
+  display:block;height:100%
+}
+li#home,li#consumer,li#kidz,li#export,li#foodservices,li#aboutus{
+  float:left
+}
+li#home{
+  background:url("../img/home.png") no-repeat;width:56px;height:75px
+}
+li#consumer{
+  background:url("../img/consumer.png") no-repeat;width:81px;height:72px; margin: 3px 0 0 28px
+}
+li#kidz{
+  background:url("../img/kidz.png") no-repeat;width:76px;height:67px;margin:8px 0 0 21px
+}
+li#export{
+  background:url("../img/export.png") no-repeat;width:71px;height:68px;margin:9px 0 0 30px
+}
+li#foodservices{
+  background:url("../img/foodservices.png") no-repeat;width:87px;height:74px;margin:0 0 0 23px
+}
+li#aboutus{
+  background:url("../img/aboutus.png") no-repeat;width:67px;height:75px;margin:0 0 0 22px
+}
+#topForm{
+   position: absolute;right: 10px;top: 19px
+}
+#topForm form{
+  float: left;margin-right: 10px;
+}
+#topForm label{
+  color:#fff;font:10px Georgia;margin-right:10px
+}
+#topForm a{
+  color:#fff;text-decoration:none;font:10px Georgia
+}
+#topForm span{
+  color: #FFFFFF;padding: 0 10px;
+}
+#ribbon{
+  position:absolute;  right:9px;  bottom:10px;background:url("../img/header_ribbon.png") no-repeat;width:189px;height:67px
+}
+#sublogo{
+  position:absolute; right:32px;bottom:19px;background:url("../img/sub_logo.png") no-repeat;width:125px;height:53px
+}
+#main{
+  margin:0 auto;background:#EAEAEA;width:917px;height:979px;position:relative
+}
+footer{
+  margin:-12px auto 0;width:917px
+}
+#fleftCurv{
+  background:url("../img/footerBlueCurv.png") no-repeat;width:14px;height:84px;margin-left:-14px;float:left
+}
+#flbg{
+  background:url("../img/footerBlue.png") repeat-x;width:917px;height:72px;margin-top: 12px;float:left
+}
+#flbglogo{
+  /*background:url("../img/gfooterlogos.png") no-repeat;*/width:871px;height:45px;margin:18px 0 0 14px
+}
+#frightCurv{
+  background:url("../img/footerBlueCurv.png") no-repeat -14px 0;width:14px;height:84px;margin-right:-14px;float:right
+}
+
+#sub_footer{
+  position:absolute;bottom:12px
+}
+.sanmiglogo1{
+  background:url("../img/sanmiguelcorp.png") no-repeat;width:105px;height:97px;margin:0 0 0 24px;float:left
+}
+.sanmiglogo2{
+  background:url("../img/sanmiguelcorp2.png") no-repeat;width:94px;height:97px;margin:0 0 0 24px;float:left
+}
+.footerlinks,.footerlinks li{
+  float:left
+}
+.footerlinks{
+  text-align:center;border-top:3px solid #2a508e;width: 655px;padding-top: 10px;margin-top:55px
+}
+.footerlinks li{
+  padding:0 4px;font:normal 11px Myriad Pro
+}
+.footerlinks ul,.cleftNav ul{
+  list-style:none;list-style-type:none; padding-left: 120px
+}
+.footerlinks a{
+  color:#000;text-decoration:none
+}
+.footerlinks a:hover{
+  color:#656565
+}
+.footerlinks small{
+  font:normal 11px Myriad Pro;color:#000;clear:both;display:block
+}
+/**
+ *slider starts
+ **/
+.xslider{
+   list-style: none outside none;
+    margin: 0 0 0 8px;
+}
+#xleftarrow{
+    background: url("../img/gcyclerarrow.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 89px;
+    left: -45px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 200px;
+    width: 45px;
+}
+#xrightarrow{
+   background: url("../img/gcyclerarrow.png") no-repeat scroll -45px 0 transparent;
+    display: block;
+    height: 89px;
+    right: -45px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 200px;
+    width: 45px;
+}
+.semiblack {
+    color: #fff;
+    /* For IE */
+    background:transparent; zoom:1;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); /* IE 5.5 - IE 7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)"; /* IE 8 */
+    height: 120px;
+    margin-left: 5px;
+    margin-top: -140px;
+    padding: 10px;
+    position: relative;
+    width: 824px;
+    z-index: 2;
+}
+
+.semiblack:not(.IE) {
+    background: #000; /* Fallback for browsers that don't support RGBa */
+    -moz-border-radius: 0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    height: 120px;
+    margin-left: 5px;
+    margin-top: -140px;
+    padding: 10px;
+    position: relative;
+    width: 824px;
+    z-index: 2;
+}
+#sb1{
+   float: left;
+    margin: 15px 10px 0 1px;
+    text-indent: -10000px;
+}
+#sb2{
+   float: left;
+   width: 576px;
+}
+#sb2 h1{
+   display: block;
+    
+    font: 24px georgia;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+#sb2 p{
+    font: 12px arial;
+    overflow: hidden;
+}
+.blboxmid h2{
+   background: url("../img/blue_label/wny.png") no-repeat scroll 0 0 transparent;
+    height: 56px;
+    left: -7px;
+    position: absolute;
+    text-indent: -10000px;
+    top: -5px;
+    width: 287px;
+}
+.blboxmid ul{
+   margin-left: 19px;
+    padding-top: 51px;
+}
+.blboxmid li{
+   margin-bottom:3px
+}
+.blboxmid ul li a{
+   float: left;
+    margin-right: 12px;
+}
+.blboxmid ul li a img{
+   -moz-border-radius: 3px 3px 3px 3px;
+    -moz-box-shadow: 0 0 1px 1px #CCCCCC;
+    border: 1px solid #FFFFFF;
+    padding: 1px;
+}
+.blboxmid ul li span,.blboxmid ul li span a{
+   color: #DA1600;
+    
+    float: left;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.blboxmid ul li p{
+   border-bottom: 1px solid #565555;
+    float: left;
+    font: 11px arial;
+    overflow: hidden;
+    padding-bottom: 7px;
+    width: 170px;
+}
+.blbox33{margin-top: -12px;}
+#plu{
+   background:url("../img/blue_label/ply.png") no-repeat;width:287px;height:56px;z-index:1
+}
+#blast{
+    padding-bottom:0;border:0 none
+}
+#blast a{
+    float: right;
+    font: italic 11px georgia;
+    margin-right: 0;
+    margin-top: 6px;
+    white-space: nowrap;
+}
+
+/****************/
+.cleftNav {
+  float: left;
+  margin-top: 87px;
+}
+.cleftNav ul {
+  padding: 0pt;
+}
+.cleftNav li {
+  background: url("../img/rclm.png") no-repeat scroll
+    0% 0% transparent;
+  width: 200px;
+  height: 64px;
+}
+.chr {
+  background: url("../img/bchb.png") no-repeat scroll
+    -21px 0pt transparent;
+  width: 21px;
+  height: 82px;
+}
+.cleftNav a {
+  display: block;
+  font: 18px Georgia;
+  text-transform: uppercase;
+  padding: 13px 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  height: 100%;
+}
+.cleftNav li.active a{
+  background:url("../img/rclm.png") no-repeat scroll 0 -70px transparent
+}
+li#about a:hover, li#companypro a:hover, li#contactus a:hover, li#management a:hover,
+li#inquiry a:hover, li#latestnews a:hover, li#promos a:hover, li#recipes a:hover,
+li#mealplanner a:hover {
+  background: url("../img/rclm.png") no-repeat scroll
+    0pt -70px transparent;
+}
+.cright {
+  margin: 0px 0pt 0pt
+    9px;
+
+}
+.chl, .chm, .chr, .cright {
+  float: left;
+}
+.chl {
+  background: url("../img/bchb.png") no-repeat scroll
+    0% 0% transparent;
+  width: 21px;
+  height: 82px;
+}
+.chm {
+  position: relative;
+  background: url("../img/bchbr.png") repeat-x scroll
+    0% 0% transparent;
+  width: 600px;
+  height: 82px;
+  margin-top: 1px;
+}
+.chm h1 {
+  text-transform: uppercase;
+  font: 24px Georgia;
+  color: rgb(255, 255, 255);
+  padding: 24px 12px;
+}
+.news .cmh {
+  background: url("../img/newsbg.jpg") repeat scroll
+    0% 0% transparent;
+  height: 559px;
+  width: 642px;
+  -moz-border-radius: 3px 3px 0pt
+    0pt;
+  margin-top: 37px;
+  -moz-box-shadow: 0pt 0pt 14px
+    rgb(145, 145, 145);
+}
+.y-scroll{
+  height: 400px;
+    margin: 20px;
+    overflow-y: auto;
+}
+.news .cmh h1 {
+  font: 20px georgia;
+  padding: 20px 20px 0pt;
+color:#212121;text-transform:uppercase;
+}
+.news .cmh p {
+  font: 11px/12px georgia;
+  padding: 20px;
+}
+.news .cmh #addthis {
+  background: url("../img/addthis.png") no-repeat scroll
+    0% 0% transparent;
+  width: 181px;
+  height: 29px;
+  display: block;
+  text-indent: -10000px;
+  margin-left: 20px;
+}
+.news .cmm {
+  border-top: 1px solid rgb(204,
+    204, 204);
+  height: 150px;
+  padding: 20px;
+  width: 602px;
+}
+.cmm{
+-moz-border-radius: 0 0 3px 3px;
+    -moz-box-shadow: 0 4px 14px #919191;
+    background: url("../img/cmnbg.png") repeat-x scroll 0 0 transparent;}
+.news .cmm h3 {
+  margin-bottom: 20px;
+}
+.news .cmm #viewmorearticles {
+  font: italic bold 12px
+    georgia;
+}
+body div#container.bluelabel div#main.main_blue {
+  background-color:#6BC7DC !important;
+  background-position:center bottom !important;
+  background-repeat:repeat !important;
+  height:auto !important;
+  min-height:900px !important
+}
+
+/*****for news listing*****/
+.listfirst, .listnext {
+  -moz-border-radius: 5px 5px 0pt
+    0pt;-webkit-border-radius: 5px 5px 0pt
+    0pt;border-radius: 5px 5px 0pt
+    0pt;
+  background: url("../img/newlisting_first.jpg") repeat-x scroll
+    0pt 0pt transparent;
+  height: 198px;
+  margin-top: 40px;
+  padding: 22px 29px 0pt;
+  width: 585px;
+}
+.listfirst #fimg, .listnext #fimg {
+  float: left;
+  margin: 13px 13px 6px
+    0pt;
+}
+.listfirst h1, .listnext h1 {
+  font: 20px georgia;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+.listfirst img, .listnext img {
+  -moz-border-radius: 7px 7px 7px
+    7px;-webkit-border-radius:7px 7px 7px
+    7px;border-radius:0pt 0pt 7px
+    3px rgb(204, 204, 204);
+  -moz-box-shadow: 0pt 0pt 7px
+    3px rgb(204, 204, 204);-webkit-box-shadow:0pt 0pt 7px
+    3px rgb(204, 204, 204);box-shadow:0pt 0pt 7px
+    3px rgb(204, 204, 204);
+  background: none repeat scroll
+    0pt 0pt rgb(255, 255, 255);
+  border: 1px solid rgb(255,
+    255, 255);
+  padding: 1px;
+}
+.listfirst span, .listnext span {
+  font-family: georgia;
+}
+.listfirst p, .listnext p {
+  display: block;
+  font: 11px/11px georgia;
+  overflow: hidden;
+  width: 100%;
+}
+.listfirst #flink, .listnext #flink {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: georgia;
+  font-style: italic;
+  margin-top: 10px;
+}
+.listnext {
+  -moz-border-radius: 0pt 0pt 0pt
+    0pt;-webkit-border-radius: 0pt 0pt 0pt
+    0pt;border-radius: 0pt 0pt 0pt
+    0pt;
+  background: url("../img/newlisting_next.jpg") repeat-x scroll
+    0pt 0pt transparent;
+  border-bottom: 1px solid rgb(150,
+    150, 150);
+  height: 177px;
+  margin-top: 0pt;
+}
+.flast {
+  -moz-border-radius: 0pt 0pt 7px
+    7px;-webkit-border-radius:0pt 0pt 7px
+    7px;border-radius:0pt 0pt 7px
+    7px;
+  border-bottom: 0pt none;
+  height: 243px;
+}
+.flast ul {
+  list-style: none outside none;
+  margin-left: 154px;
+}
+.flast li {
+  float: left;
+  padding: 0pt 10px;
+}
+.flast a {
+  font: bold 12px georgia;
+}
+a.prev{
+  background: url("../img/gcyclerarrow.png") no-repeat scroll 0% 0% transparent;
+  display:block;
+  height:90px !important;
+  width:45px !important;
+  text-indent:-10000px
+}
+a.next{
+  background: url("../img/gcyclerarrow.png") no-repeat scroll -45px 0pt transparent;
+  width:45px !important;
+  height:90px !important;
+  display:block;
+  text-indent:-10000px
+}
+*+html .sub_footer_blue{
+  left:0;
+}
+*+html .blue_label_content{
+  position:relative;
+  z-index:-1;
+  margin-top:-27px
+}
+*+html .blcycler {
+  z-index:1;
+  position:relative
+}
+*+html .bluelabel .blbg{
+  z-index:-1
+}
+* html body div#container.bluelabel div#main.main_blue{
+  margin-top:-58px
+}
+* html .ssbf{
+  margin-bottom:50px
+}
+* html .blbg #sub_footer{
+  left:0px !important
+}
+* html .blue_label_content{
+  margin-top:-26px
+}
+* html .bluelabel .blbg{
+  z-index:-1;
+  position:re
+}
+* html #topForm{
+  display:block
+}

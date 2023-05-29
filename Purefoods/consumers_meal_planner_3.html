@@ -1,0 +1,301 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/consumers.css">
+
+  <!-- All JavaScript at the bottom, except for Modernizr and Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+  <script src='js/libs/respond.min.js'></script>
+  <script src="js/libs/jquery-1.6.1.min.js"></script>
+  
+  <!-- javascript for carousel -->
+  <script src="js/carousel.js"></script>
+  <script type="text/javascript">
+	  $(document).ready(function(){
+		  $('#slider2').tinycarousel();
+	  });
+  </script>
+  
+  <!-- javascript for dropdown-->
+  <script>
+  $(document).ready(function(){
+	$('#dd').hide();
+	$('li#consumer').hover(function() {
+	$('#dd').show()
+	},
+	function() {
+	$('#dd').hide()
+	}
+	);
+	
+  });
+  </script>
+  
+<!-- style for dropdown-->
+<style type="text/css">
+#consumer{position:relative}
+#dd{left: -11px;z-index:10;position: absolute;top: 86px;}
+ul#dd{list-style:circle inside none;}
+ul#dd li,ul#dd li a{text-indent:1px}
+#tab1{background:url("img/tab1.jpg") no-repeat;width:190px;height:36px;}
+#tab1 a,#tab2 a,#tab3 a,#tab4 a{color: #FFFFFF;font-family: georgia;padding: 10px;}
+#tab1 a:hover,#tab2 a:hover,#tab3 a:hover,#tab4 a:hover{color:#dadada}
+#tab2{background:url("img/tab2.jpg") no-repeat;width:190px;height:33px;}
+#tab3{background:url("img/tab3.jpg") no-repeat;width:190px;height:34px;}
+#tab4{background:url("img/tab4.jpg") no-repeat;width:190px;height:35px;}
+</style>
+  
+  <!-- This stylesheet is for the carousel above -->
+  <style type="text/css">
+  #slider2 { height: 125px; overflow:hidden; }
+  #slider2 .viewport { float: left;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    width: 644px; }
+  #slider2 .buttons { display: block; margin: 7px 8px 0 0; float: left; }
+  #slider2 .prev{background:url("img/harrow.png") no-repeat;width:24px;height:33px;text-indent:-10000px}
+  #slider2 .next {background: url("img/harrow.png") no-repeat scroll -24px 0 transparent;
+    height: 33px;
+    margin-left: 7px;
+    text-indent: -10000px;
+    width: 24px;}
+  #slider2 .disable { visibility: hidden; }
+  #slider2 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+  #slider2 .overview li{ float: left; margin:0; padding: 1px; height: 48px; border:none; width: 90px;}
+  </style>
+  
+</head>
+<body>
+
+<div class="topredbar"></div>
+  <div id="container" class="clouds">
+    
+    <header>
+      <div id="leftCurv"></div>
+      <div id="main_head">
+	<div id="topForm">
+	  <form>
+	    <label for="s">search:</label>
+	    <input type="text" value="" id="s">
+	  </form>
+	  <a href="#">Login</a>
+	  <span>|</span>
+	  <a href="#">Register</a>
+	</div>
+	<div class="logo">
+	  <h2><a href="#">Purefoods</a></h2>
+	</div>
+	<div class="main_nav">
+	  <nav>
+	    <ul id="navbar">
+	      <li id="home"><a href="#" title="">Home</a></li>
+	      <li id="consumer"><a href="#" title="">Consumer</a>
+	      <!--dropdown-->
+		<ul id="dd">
+		<li id="tab1"><a href="#">Recipes and Meal Planner</a></li>
+		<li id="tab2"><a href="#">Products</a></li>
+		<li id="tab3"><a href="#">News and Promos</a></li>
+		<li id="tab4"><a href="#">Business Opportunities</a></li>
+		</ul>
+	      <!--dropdown-->
+	      </li>
+	      <li id="kidz"><a href="#" title="">Kids Zone</a></li>
+	      <li id="export"><a href="#" title="">Export</a></li>
+	      <li id="foodservices"><a href="#" title="">Food Services</a></li>
+	      <li id="aboutus"><a href="#" title="">About Us</a></li>
+	    </ul>
+	  </nav>
+	</div>
+	<div id="cycler">
+	  <div id="slider2">
+		  <a class="buttons prev" href="#">left</a>
+		  <div class="viewport">
+			  <ul class="overview">
+				  <li><img src="img/c7.png" /></li>
+				  <li><img src="img/c6.png" /></li>
+				  <li><img src="img/c5.png" /></li>
+				  <li><img src="img/c4.png" /></li>
+				  <li><img src="img/c3.png" /></li>
+				  <li><img src="img/c2.png" /></li>
+				  <li><img src="img/c1.png" /></li>
+				  <li><img src="img/c7.png" /></li>
+				  <li><img src="img/c6.png" /></li>
+				  <li><img src="img/c5.png" /></li>
+				  <li><img src="img/c4.png" /></li>
+				  <li><img src="img/c3.png" /></li>
+				  <li><img src="img/c2.png" /></li>
+				  <li><img src="img/c1.png" /></li>
+			  </ul>
+		  </div>
+	      <a class="buttons next" href="#">right</a>
+	  </div>
+	</div><!-- #cycler-->
+	<div id="ribbon">
+	  <div id="shadow"></div>
+	  <span id="sublogo"></span></div>
+      </div>
+      <div id="rightCurv"></div>  
+    
+    </header>
+    <div id="main" role="main">
+      <div class="consumers">
+	<div class="cleftNav">
+	  <ul>
+	    <li id="recipes"><a href="#" title="">recipes</a></li>
+	    <li id="mealplanner"><a href="#" title="">meal planner</a></li>
+	  </ul>
+	</div><!-- end of .cleftNav -->
+	<div class="cright">
+	  <div class="ch">
+	    <div class="chl"></div>
+	    <div class="chm"><h1>meal planner</h1>
+	    
+	    </div>
+	    <div class="chr"></div>
+	  </div><!-- end of .ch-->
+	  <div class="cmain meal">
+	    <div class="mfirst plnner step1 step3">
+	      <ul id="plannertab3">
+		<li id="plan1"><a href="#" title="">create</a></li>
+		<li id="plan2"><a href="#" title="">schedule</a></li>
+		<li id="plan3"><a href="#" title="">preview</a></li>
+	      </ul>
+	      <div id="pln3">
+		<p>You have successfully completed your new meal plan. Here is the breakdown:
+		<br /><br />
+		<strong>MEALS</strong>
+		<br /><br />
+		<strong>CHICKEN NUGGETS ALOHA RICE TOPPING<br />
+Star hotdog adobo pasta</strong>
+		</p>
+		<br /><br />
+		<table cellspacing="0" cellpadding="0" width="100%">
+		  <tr>
+		    <td><strong>INGREDIENTS</strong></td><td><strong>QTY</strong></td>
+		  </tr>
+		  <tr>
+		    <td>&nbsp;</td><td>&nbsp;</td>
+		  </tr>
+		  <tr>
+		    <td>PUREFOODS CHICKEN NUGGETS</td><td>200g</td></tr>
+<tr>
+		    <td>STAR HOTDOG</td><td>350g</td></tr>
+<tr>
+		    <td>Oil for frying</td><td>10ml</td></tr>
+<tr>
+		    <td>White sugar</td><td>10g</td></tr>
+<tr>
+		    <td>Pineapple juice</td><td>50ml</td></tr>
+<tr>
+		    <td>Cornstarch, dispersed in water</td><td>50ml</td></tr>
+<tr>
+		    <td>Canned pineapple chunks</td><td>40g</td></tr>
+<tr>
+		    <td>Frozen green peas</td><td>200g</td></tr>
+<tr>
+		    <td>Sweet and sour sauce from package</td><td>10g</td></tr>
+<tr>
+		    <td>Pasta</td><td>280g</td></tr>
+<tr>
+		    <td>Garlic</td><td>5g</td></tr>
+<tr>
+		    <td>Soy sauce</td><td>10ml</td></tr>
+<tr>
+		    <td>Canned asparagus</td><td>150g</td></tr>
+		</table>
+		<br />
+		<br />
+		  
+
+		<p>Total Serving Size:<span> 10</span></p>
+		<p>Total Budget:<span> P400-600</span></p>
+		<br />
+		<a href="#" title="" id="prnt"><img src="img/print.png"></a>
+	      </div>
+	    </div>
+	    
+	    
+	     </div><!-- end of .cmain -->
+	</div><!-- end of .cright -->
+      </div>
+      <div id="sub_footer">
+	<div class="sanmiglogo1"></div>
+	<div class="footerlinks">
+	  <ul>
+	    <li><a href="#" title="">Home</a></li>
+	    <li> | </li>
+	    <li><a href="#" title="">Consumers</a></li>
+	    <li> | </li>
+	    <li><a href="#" title="">Kids Zone</a></li>
+	    <li> | </li>
+	    <li><a href="#" title="">Export</a></li>
+	    <li> | </li>
+	    <li><a href="#" title="">Foodservice</a></li>
+	    <li> | </li>
+	    <li><a href="#" title="">About Us</a></li>
+	  </ul>
+	  <small>Copyright &copy; 2011 San Miguel Corporation. All rights reserved.</small>
+	</div>
+	<div class="sanmiglogo2"></div>
+      </div><!-- end of #sub_footer-->
+    </div><!-- end of #main-->
+    <footer>
+      
+	<div id="fleftCurv"></div>
+	<div id="flbg">
+	  <div id="flbglogo"></div>
+	</div>
+	<div id="frightCurv"></div>
+      
+    </footer>
+   <div class="bottomredbar"></div>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  
+  
+  
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    
+    
+    
+    
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.bluelabel .blbg,.innerbg{
+    background:url("lbg.jpg") no-repeat scroll center top transparent !important
+}
+.blctop {
+    background: url("lcc.png") no-repeat scroll 0 0 transparent
+}
+.blcbot {
+    background: url("lcc.png") no-repeat scroll 0 -19px transparent
+}
+.blcmid {
+    background: url("lccbg.png") repeat-y scroll 0 0 transparent;
+}
+.blboxtop {
+    background: url("lboxesc.png") no-repeat scroll 0 0 transparent
+}
+.blboxmid {
+    background: url("lboxebg.png") repeat-y scroll 0 0 transparent
+}
+.blboxbot {
+    background: url("lboxesc.png") no-repeat scroll 0 -16px transparent
+}
+.blboxmid h2 {
+    background: url("wn.png") no-repeat scroll 0 0 transparent
+}
+#plu {
+    background: url("plu.png") no-repeat scroll 0 0 transparent
+}
+.blhl {
+    background: url("mhc.png") no-repeat scroll 0 0 transparent
+}
+.blhm {
+    background: url("mhm.png") repeat-x scroll 0 0 transparent
+}
+.blhr {
+    background: url("mhc.png") no-repeat scroll -37px 0 transparent;
+}
