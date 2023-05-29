@@ -1,2 +1,1 @@
-![Dela Cruz Scrulpture](./screenshot.png)
-
+![Digital Marketing Diploma Program](./screenshot.png)
