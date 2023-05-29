@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('helveticaneueltcom-roman-webfont.eot');
+    src: url('helveticaneueltcom-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltcom-roman-webfont.woff') format('woff'),
+         url('helveticaneueltcom-roman-webfont.ttf') format('truetype'),
+         url('helveticaneueltcom-roman-webfont.svg#HelveticaNeueLTCom55Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper{
+    text-align:left;
+    margin: 0 auto;
+    width:1200px;
+    height:auto
+}
+#top{
+    -moz-border-radius: 18px;-webkit-border-radius:18px;border-radius:18px;
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.6);-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.6);box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.6);
+    margin: 30px 12px 0 12px;
+}
+#middle{
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80ffffff',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%); /* W3C */
+    height: 379px;
+    margin: 0 auto;
+    width: 1100px
+}
+#leftRail{
+    float: left;
+    padding-right: 20px;
+    width: 52%
+}
+#leftRail #logo{
+    background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 61px;
+    margin-bottom: 43px;
+    margin-top: 62px;
+    text-indent: -10000px;
+    width: 322px
+}
+#logo a{
+    display:block;
+    height:100%
+}
+#leftRail h3{
+    color: #333333;
+    float: right;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 21px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 408px;
+}
+#rightRail{
+    border-top: 1px solid #A9A8A5;
+    float: left;
+    margin-left: 34px;
+    margin-top: 147px;
+    padding: 14px 0;
+    width: 36%
+}
+.moreAbout{
+    color: #333333;
+    font-size: 15px;
+    width: 367px
+}
+.moreAbout a{
+    font-weight:bold;
+    color:#333
+}
+.moreAbout strong{
+   font-weight:bold
+}
+#footer{
+    background: -moz-linear-gradient(top, rgba(51,51,51,0.8) 0%, rgba(51,51,51,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,51,51,0.8)), color-stop(100%,rgba(51,51,51,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc333333', endColorstr='#cc333333',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%); /* W3C */
+    width:1100px;
+    margin:0 auto;
+    overflow:hidden;
+    height:294px
+}
+.footerbox{
+    float: left;
+    margin: 32px 0 0 91px
+}
+.footerbox h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px
+}
+.footerbox ul{
+    list-style: none outside none;
+    padding: 0
+}
+.footerbox ul li{
+    margin-bottom: 10px
+}
+.footerbox ul li a{
+    color: #FF6600;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+#copy{
+    float: right;
+    margin: 28px;
+    text-align: right;
+    width: 198px
+}
+.tipsy { padding: 5px; font-size: 11px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(../img/tipsy.gif); }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: white; color: black; max-width: 200px; text-align: center; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-north { background-position: top center; }
+  .tipsy-south { background-position: bottom center; }
+  .tipsy-east { background-position: right center; }
+  .tipsy-west { background-position: left center; }
