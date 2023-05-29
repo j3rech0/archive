@@ -1,0 +1,343 @@
+#hleft {
+	width:503px;
+	overflow:hidden;
+	float:left;
+	padding:10px 0 0 10px;
+	_padding:10px 0 0 10px;
+	position:relative;
+}
+#hleft input {
+	border:1px solid #999;
+	height:20px;
+	margin-right:5px;
+	margin-left:5px;
+}
+#ibutton {
+	border:none !important;
+	height:auto !important;
+	padding-top:1px;
+	position:absolute;
+	top:5px;
+	left:443px;
+}
+#hright {
+	padding-top:10px;
+	float:left;
+	position:relative;
+	width:432px;
+}
+#hright p {
+	padding-left:20px;
+	padding-right:20px;
+	float:left;
+}
+#lang {
+	float:right;
+	position:absolute;
+	right:17px;
+}
+p.line {
+	width:1px;
+	background:#ccc url(img/line.jpg) no-repeat;
+	padding:0 !important;
+	height:34px;
+	margin-top:-7px;
+}
+#leftpan {
+	width:228px;
+	height:auto;
+	float:left;
+}
+#leftpan h2 {
+	margin-top:29px;
+	background:url(img/logo.jpg) no-repeat;
+	text-indent:-10000px;
+	width:218px;
+	height:69px;
+}
+#leftpan ul {
+	width:200px;
+	padding-top:61px;
+}
+#leftpan ul li {
+	font-size:14px;
+	text-transform:uppercase;
+	padding:0 0 10px 30px;
+	background:url(img/arrow.jpg) no-repeat 6px 4px;
+}
+#leftpan a {
+	display:block;
+	height:100%;
+}
+#leftpan a:hover {
+	font-weight:bold;
+}
+#active {
+	font-weight:bold;
+}
+#rightpan {
+	padding:29px 0 0 20px;
+	height:auto;
+	float:left;
+	width:706px;
+}
+#lines {
+	border-top:1px solid #ccc;
+	position:absolute;
+	width:600px;
+	top:74px;
+	left:111px;
+}
+#rightpan h2 {
+	background:url(img/logo2.jpg) no-repeat;
+	text-indent:-10000px;
+	width:90px;
+	height:66px;
+	float:left;
+}
+#rightpan p {
+	text-transform:capitalize;
+	font-size:15px;
+	float:right;
+	font-weight:bold;
+	padding-top:59px;
+}
+#jqslide {
+	background:url(img/img1.jpg) no-repeat;
+	width:706px;
+	height:205px;
+	margin-top:47px;
+}
+#tbutton {
+	padding-top:42px;
+}
+#footer ul {
+	padding-left:1px;
+	float:left;
+}
+#footer ul li {
+	float:left;
+	color:#666 !important;
+	padding-right:28px;
+}
+ul#social {
+	float:right !important;
+	padding-right:6px;
+}
+li#sk {
+	width:18px;
+	height:21px;
+	background:url(img/social.jpg) no-repeat 1px 1px;
+	text-indent:-10000px;
+	padding-right:5px !important;
+}
+li#sk a {
+	display:block;
+	height:100%;
+}
+li#tt {
+	width:18px;
+	height:21px;
+	background:url(img/social.jpg) no-repeat -28px 1px;
+	text-indent:-10000px;
+	padding-right:5px !important;
+}
+li#tt a {
+	display:block;
+	height:100%;
+}
+li#rss {
+	width:18px;
+	height:21px;
+	background:url(img/social.jpg) no-repeat -57px 1px;
+	text-indent:-10000px;
+	padding-right:5px !important;
+}
+li#rss a {
+	display:block;
+	height:100%;
+}
+li#fb {
+	width:18px;
+	height:21px;
+	background:url(img/social.jpg) no-repeat -87px 1px;
+	text-indent:-10000px;
+	padding-right:5px !important;
+}
+li#fb a {
+	display:block;
+	height:100%;
+}
+#rmain {
+	width:706px;
+	overflow:hidden;
+	height:auto;
+	background:#d6ebff;
+}
+#rtop {
+	width:706px;
+	height:90px;
+	margin-bottom:47px;
+	position:relative;
+}
+#rmain h2 {
+	background:#003399;
+	width:706px;
+	height:41px;
+	font-weight:normal !important;
+	text-indent:1px !important;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:24px;
+	padding-left:4px;
+	margin-bottom:10px;
+	_padding-left:1px; /*ie6 bug fix*/
+}
+#rmain ol {
+	list-style:decimal inside;
+}
+#rmain ol li {
+	padding:2px 2px 2px 13px;
+	font-size:12px !important;
+}
+#rmain p {
+	padding:8px 13px 20px 13px;
+	_padding-right:20px;
+	font-size:12px;
+	font-weight:normal;
+}
+#rmain h1 {
+	font-size:25px;
+	font-weight:normal !important;
+	padding:10px 13px 0 13px;
+}
+#f2 {
+	margin-bottom:0px !important;
+}
+.lineb {
+	background:url(img/lineblue.jpg) no-repeat;
+	width:680px;
+	height:7px;
+	margin-top:10px;
+	clear:both;
+	margin-left:13px;
+}
+p#how {
+	text-transform:uppercase;
+	padding:0 13px 0 9px;
+	height:14px;
+	float:none !important;
+	font-weight:bold;
+}
+#rmain table {
+	margin:20px 0 0 13px;
+}
+#rmain input {
+	border:1px solid #ccc;
+	width:335px;
+	height:27px;
+	margin:10px 0 10px 0;
+}
+#rmain label {
+	font-weight:bold;
+	font-size:12px;
+}
+#rmain textarea {
+	border:1px solid #ccc;
+	width:535px;
+	height:127px;
+	margin:10px 0 10px 0;
+}
+#ebutton {
+	width:107px !important;
+	height:26px !important;
+	border:none !important;
+}
+#rmain_info {
+	padding:5px 0 0 13px;
+	_padding:5px 10px 0 6px;
+	overflow:hidden;
+}
+#rmain_info p {
+	padding:8px 0 0 13px !important;
+	font-size:12px;
+	font-weight:normal;
+}
+input.rs2 {
+	border:1px solid #ccc !important;
+	width:670px !important;
+	height:51px !important;
+}
+#rs2_chk {
+	padding:2px 0 0 13px;
+	overflow:hidden;
+}
+#chk {
+	width:550px;
+	padding-bottom:10px;
+	overflow:hidden;
+	float:left;
+}
+#chk ul {
+	padding-top:13px;
+}
+#chk ul li {
+	float:left;
+	padding-left:10px;
+}
+#chk input {
+	width:10px !important;
+	height:10px !important;
+	margin:0 !important;
+}
+#rs2_but {
+	width:108px;
+	float:left;
+}
+#rs2_but input {
+	border:none !important;
+	width:107px !important;
+	height:26px !important;
+}
+span.important{
+	color:#900;	
+}
+select#age, #month, #day, #year{
+	width:50px;
+	border:1px solid #ccc;	
+	margin:10px 22px 10px 0;
+}
+#subscribe, #newcaptcha{
+	text-transform:uppercase;
+	color:#666;	
+}
+#pass{
+	width:200px !important;	
+}
+#capt{
+	width:210px !important;	
+}
+#captd{
+	width:200px !important;	
+}
+table#cap{
+	margin:0px !important;
+}
+#adminleft{
+	width:223px;
+	height:auto;
+	
+	margin:10px 0 10px 0;	
+	float:left;
+}
+li#selected{
+	font-weight:bold;	
+}
+#adminright{
+	width:440px;
+	height:auto;
+	margin:10px 0 10px 0;	
+	float:left;
+	border-left:1px solid #fff;
+}
+
